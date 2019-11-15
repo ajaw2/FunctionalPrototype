@@ -4,35 +4,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Register"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".Login">
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
         android:gravity="center"
-        android:text="@string/reg"
-        android:textSize="64dp"
-        />
-    <EditText
-        android:id = "@+id/name"
-        android:layout_width = "match_parent"
-        android:layout_height = "wrap_content"
-        android:hint = "@string/name"
-        android:focusable = "true"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginTop = "50dp" />
+        android:text="@string/login"
+        android:textSize="64sp" />
 
     <EditText
-        android:id = "@+id/id"
+        android:id = "@+id/name"
         android:layout_width = "match_parent"
         android:layout_height = "wrap_content"
         android:hint = "@string/id"
         android:focusable = "true"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:layout_marginTop = "25dp" />
+        android:layout_marginTop = "50dp"
+        />
 
     <EditText
         android:id = "@+id/password"
@@ -50,6 +42,9 @@
         android:layout_marginTop="25dp"
         android:layout_marginLeft="200dp"
         android:layout_marginRight="25dp"
-        android:text="@string/reg"
+        android:text="@string/login"
         android:textSize="24sp"/>
+
+    
+
 </LinearLayout>
