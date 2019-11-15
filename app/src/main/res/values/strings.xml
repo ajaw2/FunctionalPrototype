@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Pet Sitter</string>
     <string name="title">Welcome to Pet Sitter!</string>
     <string name="login">Login</string>
     <string name="reg">Register</string>
