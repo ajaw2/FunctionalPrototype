@@ -9,37 +9,41 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="220dp"
-        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
         android:gravity="center"
         android:text="@string/login"
         android:textSize="64sp" />
 
     <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="left"
-        android:hint="Username"
-        android:textSize="24sp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginRight="30dp"
+        android:id = "@+id/name"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:hint = "@string/id"
+        android:focusable = "true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop = "50dp"
         />
 
     <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="left"
-        android:hint="Password"
-        android:textSize="24sp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginRight="30dp"
-        />
+        android:id = "@+id/password"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:hint = "@string/password"
+        android:focusable = "true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop = "25dp" />
 
     <Button
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginRight="25dp"
+        android:text="@string/login"
+        android:textSize="24sp"/>
 
 
 </LinearLayout>
