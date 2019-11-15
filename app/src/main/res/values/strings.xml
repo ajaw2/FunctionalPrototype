@@ -6,4 +6,9 @@
     <string name="name">Name</string>
     <string name="id">ID</string>
     <string name="password">Password</string>
+    <string name="search">Search</string>
+    <string name="entries">Dog Cat Dog</string>
+    <string name="d">Dog</string>
+    <string name="c">Cat</string>
+    <string name="details">Additional Details</string>
 </resources>
