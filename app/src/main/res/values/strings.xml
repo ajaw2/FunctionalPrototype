@@ -4,4 +4,11 @@
     <string name="login">Login</string>
     <string name="reg">Register</string>
 
+    <string name="searching_title">I am Searching For...</string>
+    <string name="pet">Pets</string>
+    <string name="sitter">Sitters</string>
+
+    <string name="settings">Settings</string>
+
+
 </resources>
