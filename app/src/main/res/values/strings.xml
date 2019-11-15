@@ -3,5 +3,7 @@
     <string name="title">Welcome to Pet Sitter!</string>
     <string name="login">Login</string>
     <string name="reg">Register</string>
-
+    <string name="name">Name</string>
+    <string name="id">ID</string>
+    <string name="password">Password</string>
 </resources>

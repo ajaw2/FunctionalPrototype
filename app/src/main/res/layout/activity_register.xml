@@ -4,13 +4,52 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Register">
+    tools:context=".Register"
+    android:orientation="vertical">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="100dp"
         android:gravity="center"
         android:text="@string/reg"
         android:textSize="64dp"
         />
+    <EditText
+        android:id = "@+id/name"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:hint = "@string/name"
+        android:focusable = "true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop = "50dp" />
+
+    <EditText
+        android:id = "@+id/id"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:hint = "@string/id"
+        android:focusable = "true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop = "25dp" />
+
+    <EditText
+        android:id = "@+id/password"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:hint = "@string/password"
+        android:focusable = "true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop = "25dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginRight="25dp"
+        android:text="@string/reg"
+        android:textSize="24sp"/>
 </LinearLayout>
