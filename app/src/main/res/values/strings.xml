@@ -4,5 +4,13 @@
     <string name="login">Login</string>
     <string name="reg">Register</string>
     <string name="search_pet">What kind of pets do you want to sit?</string>
+    <string name="id">ID</string>
+    <string name="password">PASSWORD</string>
+    <string name="name">NAME</string>
+    <string name="sitter_selection1">What kind of pets do you have?</string>
+    <string name="dog">Dog</string>
+    <string name="cat">Cat</string>
+    <string name="other">Other</string>
+    <string name="next">CONTINUE</string>
 
 </resources>
