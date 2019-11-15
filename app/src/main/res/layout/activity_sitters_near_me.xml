@@ -48,7 +48,7 @@
             android:id="@+id/sitter_details"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/details"
+            android:text="@string/sitter_details"
             android:textSize="15sp"
             android:layout_alignParentRight="true"
             />
