@@ -12,5 +12,14 @@
     <string name="cat">Cat</string>
     <string name="other">Other</string>
     <string name="next">CONTINUE</string>
+    <string name="detials">Additional Details</string>
+    <string-array name="pet_size">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Big</item>
+        <item>Super</item>
+    </string-array>
+    <string name="petsize_prompt">Choose a Size</string>
+    <string name="select_petsize">Select pet size:</string>
 
 </resources>
