@@ -6,13 +6,4 @@
     <string name="name">Name</string>
     <string name="id">ID</string>
     <string name="password">Password</string>
-    <string name="settings">Settings</string>
-    <string name="searching_title">I am Searching For...</string>
-    <string name="pet">Pets</string>
-    <string name="sitter">Sitters</string>
-    <string name="sitter_near_me">Sitters Near Me</string>
-    <string name="endorsed">Endorsed</string>
-    <string name="details">Details</string>
-
-
 </resources>
