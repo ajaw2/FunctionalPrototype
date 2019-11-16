@@ -24,6 +24,7 @@
     <string name="next">CONTINUE</string>
 
     <string name="petsize">Select pet size:</string>
+    <string name="pet_details">Additional Details</string>
     <string-array name="petsize_choice">
         <item>0-5kg</item>
         <item>5-10kg</item>

@@ -15,7 +15,7 @@
         android:layout_marginLeft="40dp"
         android:layout_marginRight="40dp"
         android:gravity="center"
-        android:text="@string/sitter_selection1"
+        android:text="@string/pet_details"
         android:textSize="36sp"
         />
     <RelativeLayout
