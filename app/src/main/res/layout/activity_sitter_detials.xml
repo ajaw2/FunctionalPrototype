@@ -15,7 +15,7 @@
         android:layout_marginLeft="40dp"
         android:layout_marginRight="40dp"
         android:gravity="center"
-        android:text="@string/detials"
+        android:text="@string/sitter_selection1"
         android:textSize="36sp"
         />
     <RelativeLayout
@@ -28,7 +28,7 @@
             android:id="@+id/size"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/select_petsize"
+            android:text="@string/petsize"
             android:textStyle="bold"
             android:textSize="24sp">
         </TextView>
@@ -36,14 +36,12 @@
             android:id="@+id/spinner1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:entries="@array/pet_size"
-            android:prompt="@string/petsize_prompt"
+            android:entries="@array/petsize_choice"
             android:layout_alignBottom="@+id/size"
             android:layout_alignTop="@+id/size"
             android:layout_toRightOf="@+id/size"
             />
     </RelativeLayout>
-
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

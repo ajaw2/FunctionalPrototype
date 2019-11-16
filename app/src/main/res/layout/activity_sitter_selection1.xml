@@ -25,9 +25,9 @@
             android:id="@+id/checkbox1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/dog"
+            android:text="@string/d"
             android:textSize="28sp"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="30dp"
             android:layout_alignParentTop="true"
             >
         </CheckBox>
@@ -35,7 +35,7 @@
             android:id="@+id/checkbox2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/cat"
+            android:text="@string/c"
             android:textSize="28sp"
             android:layout_below="@+id/checkbox1"
             android:layout_alignLeft="@+id/checkbox1"
