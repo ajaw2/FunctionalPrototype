@@ -12,6 +12,9 @@
         <activity android:name=".PetDetails"></activity>
         <activity android:name=".Login"></activity>
         <activity android:name=".Register" />
+        <activity android:name=".sitter_detials"/>
+        <activity android:name=".sitter_selection1">
+        </activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
