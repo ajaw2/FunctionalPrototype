@@ -12,18 +12,17 @@ import android.view.View;
 import android.widget.Button;
 
 public class Login extends AppCompatActivity implements View.OnClickListener {
-    private Button login;
+    private Button login_button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        login_button = (Button) findViewById(R.id.login_button);
+        login_button.setOnClickListener(Login.this);
 
-        login = (Button) findViewById(R.id.login);
-
-        login.setOnClickListener(this);
+       getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
     @Override
@@ -32,9 +31,11 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
         startActivity(intent);
         return true;
     }
+
+    @Override
     public void onClick(View v) {
-        if (v.getId() == R.id.login) {
-            Intent intent = new Intent(Login.this, Searching_for.class);
+        if (v.getId() == R.id.login_button) {
+            Intent intent = new Intent(Login.this, Register.class);
             startActivity(intent);
         }
     }
