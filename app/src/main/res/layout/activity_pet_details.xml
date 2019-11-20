@@ -42,4 +42,125 @@
         android:layout_marginRight="50dp"
         android:text="@string/details"
         android:textSize="16sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="300dp"
+        android:text="@string/c"
+        android:textSize="32sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-42dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="270dp"
+        android:text="@string/id"
+        android:textSize="32sp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-50dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginRight="50dp"
+        android:text="@string/details"
+        android:textSize="16sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="300dp"
+        android:text="@string/d"
+        android:textSize="32sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-42dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="270dp"
+        android:text="@string/id"
+        android:textSize="32sp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-50dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginRight="50dp"
+        android:text="@string/details"
+        android:textSize="16sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="300dp"
+        android:text="@string/d"
+        android:textSize="32sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-42dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="270dp"
+        android:text="@string/id"
+        android:textSize="32sp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-50dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginRight="50dp"
+        android:text="@string/details"
+        android:textSize="16sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="300dp"
+        android:text="@string/c"
+        android:textSize="32sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-42dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="270dp"
+        android:text="@string/id"
+        android:textSize="32sp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-50dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginRight="50dp"
+        android:text="@string/details"
+        android:textSize="16sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="300dp"
+        android:text="@string/d"
+        android:textSize="32sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-42dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="270dp"
+        android:text="@string/id"
+        android:textSize="32sp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-50dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginRight="50dp"
+        android:text="@string/details"
+        android:textSize="16sp" />
+
 </LinearLayout>
