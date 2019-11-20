@@ -23,8 +23,8 @@ public class Searching_for extends AppCompatActivity implements View.OnClickList
         sitter_search = (Button) findViewById(R.id.search_sitter);
         pet_search = (Button) findViewById(R.id.search_pet);
 
-//        sitter_search.setOnClickListener(this);
-//        pet_search.setOnClickListener(this);
+        sitter_search.setOnClickListener(this);
+        pet_search.setOnClickListener(this);
     }
 
     @Override

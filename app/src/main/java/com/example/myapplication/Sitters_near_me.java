@@ -17,11 +17,13 @@ public class Sitters_near_me extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sitters_near_me);
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        Intent intent = new Intent(getApplicationContext(), Searching_for.class);
+        Intent intent = new Intent(getApplicationContext(), sitter_detials.class);
         startActivity(intent);
         return true;
     }
