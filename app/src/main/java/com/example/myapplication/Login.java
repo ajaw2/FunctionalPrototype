@@ -22,7 +22,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
         login_button = (Button) findViewById(R.id.login_button);
         login_button.setOnClickListener(Login.this);
 
-       getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
     @Override
@@ -35,7 +35,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
     @Override
     public void onClick(View v) {
         if (v.getId() == R.id.login_button) {
-            Intent intent = new Intent(Login.this, Register.class);
+            Intent intent = new Intent(Login.this, Searching_for.class);
             startActivity(intent);
         }
     }
