@@ -21,11 +21,13 @@ public class sitter_selection1 extends AppCompatActivity implements View.OnClick
 
         continue_button = (Button) findViewById(R.id.continue_button);
         continue_button.setOnClickListener(this);
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        Intent intent = new Intent(getApplicationContext(), sitter_detials.class);
+        Intent intent = new Intent(getApplicationContext(), Searching_for.class);
         startActivity(intent);
         return true;
     }
