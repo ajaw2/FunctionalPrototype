@@ -21,7 +21,6 @@ public class sitter_selection1 extends AppCompatActivity implements View.OnClick
 
         continue_button = (Button) findViewById(R.id.continue_button);
         continue_button.setOnClickListener(this);
-
     }
 
     @Override
