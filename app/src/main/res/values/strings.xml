@@ -34,4 +34,17 @@
     <string name="pet_age1">Less than 1 year old</string>
     <string name="pet_age2">Adult</string>
     <string name="pet_age3">Older than 10</string>
+
+    <string-array name="pet_kinds">
+        <item>Cats</item>
+        <item>Dogs</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="rate">
+        <item>$10-$15</item>
+        <item>$15-$20</item>
+        <item>$20+</item>
+    </string-array>
+
 </resources>
