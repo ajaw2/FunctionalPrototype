@@ -9,8 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".PetDetails"></activity>
-        <activity android:name=".Login"></activity>
+        <activity android:name=".pet_selection"></activity>
+        <activity android:name=".PetDetails" />
+        <activity android:name=".Login" />
         <activity android:name=".Register" />
         <activity android:name=".MainActivity">
             <intent-filter>
