@@ -27,7 +27,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/Something"
+            android:src="@drawable/something"
             android:layout_marginLeft="30dp"
             android:layout_marginTop="10dp"
             />
@@ -48,7 +48,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_marginTop="20dp"
-            android:background="@drawable/Dropright_icon"
+            android:background="@drawable/dropright_icon"
             android:layout_marginLeft="50dp"
 
             />
@@ -97,7 +97,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:background="@drawable/Dropright_icon"
+            android:background="@drawable/dropright_icon"
             android:layout_marginLeft="20dp"
             android:layout_weight="1"
             />

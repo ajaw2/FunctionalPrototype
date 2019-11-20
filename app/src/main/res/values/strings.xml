@@ -23,12 +23,14 @@
     <string name="other">Other</string>
     <string name="next">CONTINUE</string>
 
-    <string name="petsize">Select pet size:</string>
+    <string name="petsize">Pet size(lb):</string>
     <string name="pet_details">Additional Details</string>
-    <string-array name="petsize_choice">
-        <item>0-5kg</item>
-        <item>5-10kg</item>
-        <item>10-15kg</item>
-        <item>15kg+</item>
-    </string-array>
+    <string name="pet_size1">0-15</string>
+    <string name="pet_size2">16-40</string>
+    <string name="pet_size3">41-100</string>
+    <string name="pet_size4">101+</string>
+    <string name="pet_age">How old are your pet?</string>
+    <string name="pet_age1">Less than 1 year old</string>
+    <string name="pet_age2">Adult</string>
+    <string name="pet_age3">Older than 10</string>
 </resources>
