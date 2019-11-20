@@ -22,7 +22,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
         login_button = (Button) findViewById(R.id.login_button);
         login_button.setOnClickListener(Login.this);
 
-       getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
     @Override
