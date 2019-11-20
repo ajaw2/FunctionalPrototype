@@ -14,7 +14,6 @@
         android:layout_gravity="right"
         android:paddingLeft="30dp"
         android:paddingRight="30dp"
-
         android:text="@string/settings"
         android:textSize="18sp" />
 
