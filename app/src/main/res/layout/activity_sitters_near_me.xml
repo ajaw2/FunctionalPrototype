@@ -113,7 +113,181 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentRight="true"
             android:layout_marginRight="20dp"
-            android:text="$23"
+            android:text="$17"
+            android:textColor="#EA6E2E"
+            android:textSize="25dp"
+            android:textStyle="bold"
+
+            />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp">
+
+        <Button
+            android:id="@+id/Image1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/something"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true" />
+
+        <TextView
+            android:id="@+id/Title1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/Image1"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@id/Image1"
+            android:gravity="left|center_vertical"
+            android:paddingBottom="3dp"
+            android:text="Ann"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Description1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Title1"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@id/Image1"
+            android:gravity="left|center_vertical"
+            android:paddingBottom="5dp"
+            android:text="Animal Lovers"
+            android:textColor="#000000"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/Distance1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/price1"
+            android:layout_alignParentRight="true"
+            android:gravity="left|center_vertical"
+            android:paddingBottom="5dp"
+            android:text="1.8 mi"
+            android:textColor="#000000"
+            android:textSize="12dp"
+            android:layout_marginRight="30dp"
+            android:layout_alignTop="@+id/simpleRatingBar1"
+            android:layout_alignBottom="@id/simpleRatingBar1"
+
+
+            />
+
+        <RatingBar
+            android:id="@+id/simpleRatingBar1"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_below="@id/Description1"
+            android:rating="3.5"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:layout_marginTop="-10dp"
+            android:layout_marginBottom="-10dp"/>
+
+
+
+        <TextView
+            android:id="@+id/price1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:text="$20"
+            android:textColor="#EA6E2E"
+            android:textSize="25dp"
+            android:textStyle="bold"
+
+            />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp">
+
+        <Button
+            android:id="@+id/Image2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/something"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true" />
+
+        <TextView
+            android:id="@+id/Title2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/Image2"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@id/Image2"
+            android:gravity="left|center_vertical"
+            android:paddingBottom="3dp"
+            android:text="Jenny"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Description2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Title2"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@id/Image2"
+            android:gravity="left|center_vertical"
+            android:paddingBottom="5dp"
+            android:text="Animal Lovers"
+            android:textColor="#000000"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/Distance2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/price2"
+            android:layout_alignParentRight="true"
+            android:gravity="left|center_vertical"
+            android:paddingBottom="5dp"
+            android:text="1.9 mi"
+            android:textColor="#000000"
+            android:textSize="12dp"
+            android:layout_marginRight="30dp"
+            android:layout_alignTop="@+id/simpleRatingBar2"
+            android:layout_alignBottom="@id/simpleRatingBar2"
+
+
+            />
+
+        <RatingBar
+            android:id="@+id/simpleRatingBar2"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_below="@id/Description2"
+            android:rating="4.5"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:layout_marginTop="-10dp"
+            android:layout_marginBottom="-10dp"/>
+
+
+
+        <TextView
+            android:id="@+id/price2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:text="$15"
             android:textColor="#EA6E2E"
             android:textSize="25dp"
             android:textStyle="bold"
