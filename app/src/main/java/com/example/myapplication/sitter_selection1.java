@@ -35,7 +35,7 @@ public class sitter_selection1 extends AppCompatActivity implements View.OnClick
     @Override
     public void onClick(View v) {
         if (v.getId() == R.id.continue_button) {
-            Intent intent = new Intent(this, sitter_detials.class);
+            Intent intent = new Intent(this, sitter_details.class);
             startActivity(intent);
         }
     }

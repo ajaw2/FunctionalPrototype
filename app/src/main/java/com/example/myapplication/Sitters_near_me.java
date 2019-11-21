@@ -23,7 +23,7 @@ public class Sitters_near_me extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        Intent intent = new Intent(getApplicationContext(), sitter_detials.class);
+        Intent intent = new Intent(getApplicationContext(), sitter_details.class);
         startActivity(intent);
         return true;
     }

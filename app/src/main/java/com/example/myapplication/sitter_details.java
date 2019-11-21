@@ -11,13 +11,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class sitter_detials extends AppCompatActivity implements View.OnClickListener {
+public class sitter_details extends AppCompatActivity implements View.OnClickListener {
     private Button cont;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sitter_detials);
+        setContentView(R.layout.activity_sitter_details);
 
 
         cont = (Button) findViewById(R.id.continue_button);
@@ -37,7 +37,7 @@ public class sitter_detials extends AppCompatActivity implements View.OnClickLis
     @Override
     public void onClick(View v) {
         if (v.getId() == R.id.continue_button) {
-            Intent intent = new Intent(sitter_detials.this, Sitters_near_me.class);
+            Intent intent = new Intent(sitter_details.this, Sitters_near_me.class);
             startActivity(intent);
         }
     }

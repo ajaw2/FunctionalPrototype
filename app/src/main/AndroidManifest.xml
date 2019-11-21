@@ -16,8 +16,9 @@
         <activity android:name=".Register" />
         <activity android:name=".sitter_selection1" />
         <activity android:name=".pet_info" />
-        <activity android:name=".sitter_detials" />
+        <activity android:name=".sitter_details" />
         <activity android:name=".Sitters_near_me" />
+        <activity android:name=".Become_sitter" />
         <activity android:name=".AccountPage" />
         <activity android:name=".MainActivity">
             <intent-filter>
