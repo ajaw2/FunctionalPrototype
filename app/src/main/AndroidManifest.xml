@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".message"></activity>
         <activity android:name=".pet_selection" />
         <activity android:name=".PetDetails" />
         <activity android:name=".Login" />
