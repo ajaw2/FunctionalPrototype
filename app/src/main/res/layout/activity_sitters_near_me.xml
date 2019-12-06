@@ -42,10 +42,10 @@
         android:layout_marginTop="15dp">
 
         <Button
-            android:id="@+id/Image"
+            android:id="@+id/Image_imp"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:background="@drawable/something"
+            android:background="@drawable/bob"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true" />
 
@@ -53,9 +53,9 @@
             android:id="@+id/Title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignTop="@id/Image"
+            android:layout_alignTop="@id/Image_imp"
             android:layout_marginLeft="15dp"
-            android:layout_toRightOf="@id/Image"
+            android:layout_toRightOf="@id/Image_imp"
             android:gravity="left|center_vertical"
             android:paddingBottom="3dp"
             android:text="Bob"
@@ -69,12 +69,14 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/Title"
             android:layout_marginLeft="15dp"
-            android:layout_toRightOf="@id/Image"
+            android:layout_toRightOf="@id/Image_imp"
             android:gravity="left|center_vertical"
             android:paddingBottom="5dp"
             android:text="Animal Lovers"
             android:textColor="#000000"
-            android:textSize="17dp" />
+            android:textSize="17dp"
+            android:layout_toEndOf="@id/Image_imp"
+            tools:ignore="NotSibling" />
 
         <TextView
             android:id="@+id/Distance"
@@ -147,7 +149,7 @@
             android:id="@+id/Image1"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:background="@drawable/something"
+            android:background="@drawable/ann"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true" />
 
@@ -234,7 +236,7 @@
             android:id="@+id/Image2"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:background="@drawable/something"
+            android:background="@drawable/jenny"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true" />
 
@@ -261,7 +263,7 @@
             android:layout_toRightOf="@id/Image2"
             android:gravity="left|center_vertical"
             android:paddingBottom="5dp"
-            android:text="Animal Lovers"
+            android:text="Dog Lover"
             android:textColor="#000000"
             android:textSize="17dp" />
 

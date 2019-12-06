@@ -30,7 +30,7 @@ public class Sitters_near_me extends AppCompatActivity implements View.OnClickLi
         sitterFilter = (ImageButton) findViewById(R.id.sitter_filter);
         sitterFilter.setOnClickListener(this);
 
-        sitter = (Button) findViewById(R.id.Image);
+        sitter = (Button) findViewById(R.id.Image_imp);
         sitter.setOnClickListener(this);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -57,7 +57,7 @@ public class Sitters_near_me extends AppCompatActivity implements View.OnClickLi
 
     @Override
     public void onClick(View v) {
-        if (v.getId() == R.id.Image) {
+        if (v.getId() == R.id.Image_imp) {
             Intent intent = new Intent(this, ContactSitter.class);
             startActivity(intent);
         }
