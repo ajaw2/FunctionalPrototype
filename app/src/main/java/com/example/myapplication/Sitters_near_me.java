@@ -7,6 +7,7 @@ import android.view.MenuItem;
 
 import androidx.annotation.RequiresApi;
 import androidx.core.app.NavUtils;
+
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.drm.DrmStore;
@@ -18,6 +19,7 @@ import android.widget.ImageButton;
 
 public class Sitters_near_me extends AppCompatActivity implements View.OnClickListener{
     private ImageButton sitterFilter;
+    private Button sitter;
 
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
@@ -27,6 +29,9 @@ public class Sitters_near_me extends AppCompatActivity implements View.OnClickLi
 
         sitterFilter = (ImageButton) findViewById(R.id.sitter_filter);
         sitterFilter.setOnClickListener(this);
+
+        sitter = (Button) findViewById(R.id.Image);
+        sitter.setOnClickListener(this);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
@@ -52,6 +57,10 @@ public class Sitters_near_me extends AppCompatActivity implements View.OnClickLi
 
     @Override
     public void onClick(View v) {
+        if (v.getId() == R.id.Image) {
+            Intent intent = new Intent(this, ContactSitter.class);
+            startActivity(intent);
+        }
         if (v.getId() == R.id.sitter_filter) {
             Intent intent = new Intent(this, Filter.class);
             startActivity(intent);
