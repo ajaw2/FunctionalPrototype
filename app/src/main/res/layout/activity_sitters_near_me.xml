@@ -7,6 +7,23 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
+
+    <ImageButton
+        android:id="@+id/sitter_filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_filter"
+        android:layout_gravity="right"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="10dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="10dp"
+        />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

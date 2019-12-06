@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".message"></activity>
+        <activity android:name=".Filter"/>
+        <activity android:name=".message" />
         <activity android:name=".pet_selection" />
         <activity android:name=".PetDetails" />
         <activity android:name=".Login" />
@@ -18,7 +19,9 @@
         <activity android:name=".sitter_selection1" />
         <activity android:name=".pet_info" />
         <activity android:name=".sitter_details" />
-        <activity android:name=".Sitters_near_me" />
+        <activity
+            android:name=".Sitters_near_me"
+            android:label="Sitters List" />
         <activity android:name=".Become_sitter" />
         <activity android:name=".AccountPage" />
         <activity android:name=".MainActivity">
