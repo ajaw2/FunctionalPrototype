@@ -54,6 +54,14 @@ public class Filter extends AppCompatActivity{
 
 
 
+        applyButton.setOnClickListener((new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(Filter.this,Sitters_near_me.class);
+                startActivity(i);
+            }
+        }));
+
         ageButton1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -181,17 +189,14 @@ public class Filter extends AppCompatActivity{
 
         SeekBar sk = (SeekBar) findViewById(R.id.seekBar);
         sk.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
-
             @Override
             public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
                 TextView t=(TextView)findViewById(R.id.seekbarText);
                 t.setText(String.valueOf(i));
             }
-
             @Override
             public void onStartTrackingTouch(SeekBar seekBar) {
             }
-
             @Override
             public void onStopTrackingTouch(SeekBar seekBar) {
             }
