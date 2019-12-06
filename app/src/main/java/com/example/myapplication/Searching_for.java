@@ -1,7 +1,10 @@
 package com.example.myapplication;
 
 import android.app.ActionBar;
+import android.view.Menu;
 import android.view.MenuItem;
+
+import androidx.annotation.NonNull;
 import androidx.core.app.NavUtils;
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
@@ -23,11 +26,9 @@ public class Searching_for extends AppCompatActivity implements View.OnClickList
 
         sitter_search = (Button) findViewById(R.id.search_sitter);
         pet_search = (Button) findViewById(R.id.search_pet);
-        settings = (Button) findViewById(R.id.settings);
 
         sitter_search.setOnClickListener(this);
         pet_search.setOnClickListener(this);
-        settings.setOnClickListener(this);
     }
 
     @Override
@@ -38,9 +39,23 @@ public class Searching_for extends AppCompatActivity implements View.OnClickList
         } else if (v.getId() == R.id.search_pet) {
             Intent intent = new Intent(Searching_for.this, pet_selection.class);
             startActivity(intent);
-        } else if (v.getId() == R.id.settings) {
+        }
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        int id=item.getItemId();
+
+        if (id==R.id.settings_mini){
             Intent intent = new Intent(this, AccountPage.class);
             startActivity(intent);
         }
+        return super.onOptionsItemSelected(item);
     }
 }

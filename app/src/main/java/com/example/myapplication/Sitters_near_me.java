@@ -1,6 +1,7 @@
 package com.example.myapplication;
 
 import android.app.ActionBar;
+import android.view.Menu;
 import android.view.MenuItem;
 import androidx.core.app.NavUtils;
 import androidx.appcompat.app.AppCompatActivity;
@@ -23,8 +24,19 @@ public class Sitters_near_me extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        Intent intent = new Intent(getApplicationContext(), sitter_details.class);
-        startActivity(intent);
+        if (item.getItemId()==R.id.settings_mini){
+            Intent intent = new Intent(this, AccountPage.class);
+            startActivity(intent);
+        } else {
+            Intent intent = new Intent(getApplicationContext(), sitter_details.class);
+            startActivity(intent);
+        }
+        return true;
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu, menu);
         return true;
     }
 }

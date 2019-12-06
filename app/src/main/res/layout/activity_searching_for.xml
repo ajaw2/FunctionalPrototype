@@ -8,16 +8,6 @@
     android:orientation="vertical">
 
 
-    <Button
-        android:id="@+id/settings"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="right"
-        android:paddingLeft="30dp"
-        android:paddingRight="30dp"
-        android:text="@string/settings"
-        android:textSize="18sp" />
-
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

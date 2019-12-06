@@ -35,8 +35,7 @@ public class AccountPage extends AppCompatActivity implements View.OnClickListen
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        Intent intent = new Intent(getApplicationContext(), Searching_for.class);
-        startActivity(intent);
+        super.onBackPressed();
         return true;
     }
 }
