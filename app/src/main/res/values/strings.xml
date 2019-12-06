@@ -35,6 +35,8 @@
     <string name="pet_age2">Adult</string>
     <string name="pet_age3">Older than 10</string>
 
+    <string name="settings_title">Settings</string>
+
     <string-array name="pet_kinds">
         <item>Cats</item>
         <item>Dogs</item>
