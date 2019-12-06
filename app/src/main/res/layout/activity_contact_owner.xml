@@ -14,8 +14,9 @@
         android:layout_marginLeft="40dp"
         android:layout_marginRight="40dp"
         android:gravity="center"
-        android:text="Sitter Info"
+        android:text="Bob"
         android:textSize="30sp"
+        android:textColor="@android:color/black"
         android:paddingBottom="10dp"
         />
 
@@ -37,27 +38,33 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Name: Bob"
-            android:layout_marginTop="50dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:textSize="20sp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:text="Location: Electrical and Computer Engineering Building, 306 N Wright St, Urbana, IL 61801"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
+            android:textColor="@android:color/black"
             android:textSize="20sp"/>
+        
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Description: Bob likes long walks at the beach with animals and is guaranteed to give your pet the same experience."
+            android:text="Description: "
             android:layout_marginTop="10dp"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bob"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@android:color/black"
+            android:background="@drawable/textbox"
+            android:paddingLeft="5dp"
             android:textSize="20sp"/>
 
         <LinearLayout
