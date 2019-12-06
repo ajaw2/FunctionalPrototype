@@ -7,17 +7,31 @@
     tools:context=".PetDetails"
     android:orientation="vertical">
 
-   <SearchView
-       android:id="@+id/search"
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content"
-       android:layout_marginTop="25dp"
-       android:labelFor="@string/search" />
-    <ListView
-        android:id="@+id/list"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
-    </ListView>
+ <RelativeLayout
+     android:id="@+id/pet_search"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginLeft="10dp"
+     android:layout_marginTop="10dp"
+     android:clickable="true">
+
+  <SearchView
+      android:id="@+id/pet_search_box"
+      android:layout_width="350dp"
+      android:layout_height="wrap_content"
+
+      android:labelFor="@string/search" />
+
+  <ImageButton
+      android:id="@+id/pet_detail_filter"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_toRightOf="@id/pet_search_box"
+      android:layout_alignParentTop="@id/pet_search_box"
+      android:layout_gravity="right"
+      android:layout_marginTop="10dp"
+      android:background="@drawable/ic_filter" />
+ </RelativeLayout>
 
  <RelativeLayout
      android:id="@+id/pet_add_detail"
@@ -45,7 +59,7 @@
       android:gravity="left|center_vertical"
       android:paddingBottom="3dp"
       android:text="Kobe"
-      android:textColor="@android:color/black"
+      android:textColor="#000000"
       android:textSize="20dp"
       android:textStyle="bold" />
 
@@ -73,7 +87,7 @@
       android:gravity="left|center_vertical"
       android:paddingBottom="5dp"
       android:text="Shiba Inu"
-      android:textColor="@android:color/black"
+      android:textColor="#000000"
       android:textSize="17dp" />
 
   <TextView
@@ -101,7 +115,7 @@
       android:gravity="left|center_vertical"
       android:paddingBottom="5dp"
       android:text="0.9 mi"
-      android:textColor="@android:color/black"
+      android:textColor="#000000"
       android:textSize="12dp"
 
 
@@ -150,7 +164,7 @@
       android:gravity="left|center_vertical"
       android:paddingBottom="3dp"
       android:text="Lucky"
-      android:textColor="@android:color/black"
+      android:textColor="#000000"
       android:textSize="20dp"
       android:textStyle="bold" />
 
@@ -178,7 +192,7 @@
       android:gravity="left|center_vertical"
       android:paddingBottom="5dp"
       android:text="Golden Retriever"
-      android:textColor="@android:color/black"
+      android:textColor="#000000"
       android:textSize="17dp" />
 
   <TextView
@@ -206,7 +220,7 @@
       android:gravity="left|center_vertical"
       android:paddingBottom="5dp"
       android:text="1.5 mi"
-      android:textColor="@android:color/black"
+      android:textColor="#000000"
       android:textSize="12dp"
 
 
@@ -255,7 +269,7 @@
       android:gravity="left|center_vertical"
       android:paddingBottom="3dp"
       android:text="Daisy"
-      android:textColor="@android:color/black"
+      android:textColor="#000000"
       android:textSize="20dp"
       android:textStyle="bold" />
 
@@ -283,7 +297,7 @@
       android:gravity="left|center_vertical"
       android:paddingBottom="5dp"
       android:text="Ginger Tabby"
-      android:textColor="@android:color/black"
+      android:textColor="#000000"
       android:textSize="17dp" />
 
   <TextView
@@ -311,13 +325,11 @@
       android:gravity="left|center_vertical"
       android:paddingBottom="5dp"
       android:text="1.6 mi"
-      android:textColor="@android:color/black"
+      android:textColor="#000000"
       android:textSize="12dp"
 
 
       />
-
-
 
 
 

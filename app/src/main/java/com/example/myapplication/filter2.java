@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
@@ -14,7 +13,7 @@ import android.widget.TextView;
 
 import static com.example.myapplication.R.id.seekbarText;
 
-public class Filter extends AppCompatActivity{
+public class filter2 extends AppCompatActivity{
     private Button sitterFilter;
     private Button ageButton1;
     private Button ageButton2;
@@ -33,13 +32,13 @@ public class Filter extends AppCompatActivity{
     boolean sizeButton2Clicked=false;
     boolean sizeButton3Clicked=false;
     boolean sizeButton4Clicked=false;
-    private Button applyButton;
+    private Button applyButton2;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_filter);
+        setContentView(R.layout.activity_filter2);
 
         ageButton1= (Button) findViewById(R.id.pet_age1);
         ageButton2=(Button) findViewById(R.id.pet_age2);
@@ -51,14 +50,12 @@ public class Filter extends AppCompatActivity{
         sizeButton2=(Button) findViewById(R.id.button_size2);
         sizeButton3=(Button) findViewById(R.id.button_size3);
         sizeButton4=(Button) findViewById(R.id.button_size4);
-        applyButton = (Button) findViewById(R.id.applyButton);
+        applyButton2 = (Button) findViewById(R.id.applyButton2);
 
-        getActionBar().setDisplayHomeAsUpEnabled(true);
-
-        applyButton.setOnClickListener((new View.OnClickListener() {
+        applyButton2.setOnClickListener((new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(Filter.this,Sitters_near_me.class);
+                Intent i = new Intent(filter2.this,PetDetails.class);
                 startActivity(i);
             }
         }));
@@ -190,31 +187,21 @@ public class Filter extends AppCompatActivity{
 
         SeekBar sk = (SeekBar) findViewById(R.id.seekBar);
         sk.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
+
             @Override
             public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
                 TextView t=(TextView)findViewById(R.id.seekbarText);
                 t.setText(String.valueOf(i));
             }
+
             @Override
             public void onStartTrackingTouch(SeekBar seekBar) {
             }
+
             @Override
             public void onStopTrackingTouch(SeekBar seekBar) {
             }
         });
 
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-
-        if (item.getItemId()==R.id.settings_mini){
-            Intent intent = new Intent(this, Sitters_near_me.class);
-            startActivity(intent);
-        } else {
-            Intent intent = new Intent(getApplicationContext(), pet_info.class);
-            startActivity(intent);
-        }
-        return true;
     }
 }

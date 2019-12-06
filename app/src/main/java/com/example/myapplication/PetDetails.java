@@ -30,6 +30,10 @@ public class PetDetails extends AppCompatActivity implements View.OnClickListene
             Intent intent = new Intent(PetDetails.this, pet_info.class);
             startActivity(intent);
         }
+        if (v.getId() == R.id.pet_detail_filter) {
+            Intent intent = new Intent(this, filter2.class);
+            startActivity(intent);
+        }
     }
 
     @Override
