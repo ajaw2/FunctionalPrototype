@@ -20,7 +20,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:rating="0"
-
+        android:scaleX="0.8"
+        android:scaleY="0.8"
         />
 
     <TextView
@@ -69,6 +70,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Submit"
+        android:textSize="15dp"
         android:layout_gravity="right"/>
 
 </LinearLayout>
