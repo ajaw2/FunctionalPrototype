@@ -50,7 +50,10 @@
     </string-array>
     <string name="kobe"> Kobe is a hyper dog who loves to go on walks at least twice a day
         and play fetch.</string>
+    <string name="bob">I like long walks at the beach with animals and I guarantee to give
+        your pet the same experience.</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
 
 </resources>
