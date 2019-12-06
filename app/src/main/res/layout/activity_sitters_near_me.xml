@@ -29,7 +29,7 @@
             android:id="@+id/Image"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:background="@drawable/something"
+            android:background="@drawable/bob"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true" />
 
@@ -131,7 +131,7 @@
             android:id="@+id/Image1"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:background="@drawable/something"
+            android:background="@drawable/ann"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true" />
 
@@ -218,7 +218,7 @@
             android:id="@+id/Image2"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:background="@drawable/something"
+            android:background="@drawable/jenny"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true" />
 

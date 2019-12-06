@@ -1,23 +1,25 @@
 package com.example.myapplication;
 
-import android.app.ActionBar;
 import android.view.Menu;
 import android.view.MenuItem;
-import androidx.core.app.NavUtils;
+
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
-import android.drm.DrmStore;
 
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Sitters_near_me extends AppCompatActivity {
+public class Sitters_near_me extends AppCompatActivity implements View.OnClickListener{
+    private Button sitter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sitters_near_me);
+
+        sitter = (Button) findViewById(R.id.Image);
+        sitter.setOnClickListener(this);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
@@ -38,5 +40,13 @@ public class Sitters_near_me extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu, menu);
         return true;
+    }
+
+    @Override
+    public void onClick(View v) {
+        if (v.getId() == R.id.Image) {
+            Intent intent = new Intent(this, ContactSitter.class);
+            startActivity(intent);
+        }
     }
 }
