@@ -19,21 +19,21 @@
     <string name="pet">Pets</string>
     <string name="sitter">Sitters</string>
     <string name="sitter_near_me">Sitters Near Me</string>
-    <string name="sitter_selection1">What kind of pets do you have?</string>
+    <string name="sitter_selection1">PET TYPE</string>
     <string name="pet_selection">What kind of pets do you want to sit?</string>
     <string name="other">Other</string>
     <string name="next">CONTINUE</string>
 
-    <string name="petsize">Pet size(lb):</string>
+    <string name="petsize">PET SIZE(LB):</string>
     <string name="pet_details">Additional Details</string>
     <string name="pet_size1">0-15</string>
     <string name="pet_size2">16-40</string>
     <string name="pet_size3">41-100</string>
     <string name="pet_size4">101+</string>
-    <string name="pet_age">How old are your pet?</string>
-    <string name="pet_age1">Less than 1 year old</string>
+    <string name="pet_age">PET AGE</string>
+    <string name="pet_age1">&lt; 1 years</string>
     <string name="pet_age2">Adult</string>
-    <string name="pet_age3">Older than 10</string>
+    <string name="pet_age3">&gt; 10 years</string>
 
     <string name="settings_title">Settings</string>
 

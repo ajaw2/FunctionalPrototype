@@ -1,22 +1,34 @@
 package com.example.myapplication;
 
+import android.app.ActionBar;
 import android.view.Menu;
+import android.os.Build;
 import android.view.MenuItem;
+
+import androidx.annotation.RequiresApi;
+import androidx.core.app.NavUtils;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
+import android.drm.DrmStore;
 
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class Sitters_near_me extends AppCompatActivity implements View.OnClickListener{
+    private ImageButton sitterFilter;
     private Button sitter;
 
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sitters_near_me);
+
+        sitterFilter = (ImageButton) findViewById(R.id.sitter_filter);
+        sitterFilter.setOnClickListener(this);
 
         sitter = (Button) findViewById(R.id.Image);
         sitter.setOnClickListener(this);
@@ -46,6 +58,10 @@ public class Sitters_near_me extends AppCompatActivity implements View.OnClickLi
     public void onClick(View v) {
         if (v.getId() == R.id.Image) {
             Intent intent = new Intent(this, ContactSitter.class);
+            startActivity(intent);
+        }
+        if (v.getId() == R.id.sitter_filter) {
+            Intent intent = new Intent(this, Filter.class);
             startActivity(intent);
         }
     }
