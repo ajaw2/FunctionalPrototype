@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
@@ -52,7 +53,7 @@ public class Filter extends AppCompatActivity{
         sizeButton4=(Button) findViewById(R.id.button_size4);
         applyButton = (Button) findViewById(R.id.applyButton);
 
-
+        getActionBar().setDisplayHomeAsUpEnabled(true);
 
         applyButton.setOnClickListener((new View.OnClickListener() {
             @Override
@@ -202,5 +203,18 @@ public class Filter extends AppCompatActivity{
             }
         });
 
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+        if (item.getItemId()==R.id.settings_mini){
+            Intent intent = new Intent(this, Sitters_near_me.class);
+            startActivity(intent);
+        } else {
+            Intent intent = new Intent(getApplicationContext(), pet_info.class);
+            startActivity(intent);
+        }
+        return true;
     }
 }
