@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rating"
+        android:layout_marginBottom="10dp"
+        android:textSize="22dp">
+    </TextView>
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rating="0"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Leave a comment:"
+        android:textSize="22dp">
+    </TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="top|left"
+        android:layout_weight="1"
+        android:layout_gravity="fill_vertical"
+        android:hint="Comment on this pet sitter..." />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Would you like to recommend this sitter to your friend?"
+        android:textSize="22dp"
+        android:layout_marginTop="10dp">
+    </TextView>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Yes"
+        android:textColor="#154"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:checked="false"
+        android:text="No"
+        android:textColor="#154"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textSize="15dp"
+        android:layout_gravity="right"/>
+
+</LinearLayout>

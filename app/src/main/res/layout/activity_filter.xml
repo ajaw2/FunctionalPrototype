@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+<!--    <ScrollView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        >-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+
+            >
+<!--pet type selection-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sitter_selection1"
+                android:textSize="18sp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                android:id="@+id/btn_dog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/d"
+                android:textSize="20sp"
+                android:background="@drawable/button_selector"
+                android:textColor="@drawable/btn_text_selector"
+                android:layout_weight="1"
+                android:layout_marginRight="10dp"/>
+
+
+                <Button
+                    android:id="@+id/btn_cat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/c"
+                    android:textSize="20sp"
+                    android:background="@drawable/button_selector"
+                    android:textColor="@drawable/btn_text_selector"
+                    android:layout_weight="1"
+                    android:layout_marginRight="10dp"/>
+
+                <Button
+                    android:id="@+id/btn_other"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/other"
+                    android:textSize="20sp"
+                    android:background="@drawable/button_selector"
+                    android:textColor="@drawable/btn_text_selector"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+
+<!--pet size selection-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/petsize"
+                android:textSize="18sp"
+                android:layout_marginTop="30dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+            <Button android:id="@+id/button_size1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/pet_size1"
+                android:background="@drawable/button_selector"
+                android:textColor="@drawable/btn_text_selector"
+                android:textSize="20sp"
+                android:layout_marginRight="10dp"/>
+
+            <Button android:id="@+id/button_size2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text= "@string/pet_size2"
+                android:background="@drawable/button_selector"
+                android:textColor="@drawable/btn_text_selector"
+                android:textSize="20sp"
+                android:layout_marginRight="10dp"/>
+
+            <Button android:id="@+id/button_size3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text= "@string/pet_size3"
+                android:background="@drawable/button_selector"
+                android:textColor="@drawable/btn_text_selector"
+                android:layout_marginRight="10dp"
+                android:textSize="20sp"/>
+
+                <Button android:id="@+id/button_size4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text= "@string/pet_size4"
+                    android:background="@drawable/button_selector"
+                    android:textColor="@drawable/btn_text_selector"
+                    android:textSize="20sp"/>
+
+        </LinearLayout>
+
+
+<!--pet age selection-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pet_age"
+                android:textSize="18sp"
+                android:layout_marginTop="30dp"
+                />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp">
+                    <Button
+                        android:id="@+id/pet_age1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/button_selector"
+                        android:text="@string/pet_age1"
+                        android:textSize="20sp"
+                        android:textColor="@drawable/btn_text_selector"
+                        android:padding="10dp"/>
+                    <Button
+                        android:id="@+id/pet_age2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/button_selector"
+                        android:text="@string/pet_age2"
+                        android:textSize="20sp"
+                        android:textColor="@drawable/btn_text_selector"
+                        android:layout_marginLeft="20dp"
+                        />
+
+                    <Button
+                        android:id="@+id/pet_age3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/button_selector"
+                        android:text="@string/pet_age3"
+                        android:textSize="20sp"
+                        android:textColor="@drawable/btn_text_selector"
+                        android:layout_marginLeft="20dp"
+                        android:padding="10dp"
+                        />
+                </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PRICE (USD)"
+                android:textSize="18sp"
+                android:layout_marginTop="30dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <SeekBar
+                android:id="@+id/seekBar"
+                android:max="150"
+                android:progress="150"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/seekbarText"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    <Button
+        android:id="@+id/applyButton"
+        android:layout_marginTop="120dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="APPLY"
+    android:background="@drawable/button_selector"
+    android:layout_gravity="center|bottom" />
+
+<!--    </ScrollView>-->
+
+
+</LinearLayout>
