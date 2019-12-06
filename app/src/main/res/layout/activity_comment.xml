@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:text="Rating"
         android:layout_marginBottom="10dp"
-        android:textSize="25dp">
+        android:textSize="22dp">
     </TextView>
 
     <RatingBar
@@ -27,7 +27,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Leave a comment:"
-        android:textSize="25dp">
+        android:textSize="22dp">
     </TextView>
     <EditText
         android:layout_width="match_parent"
@@ -41,7 +41,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Would you like to recommend this sitter to your friend?"
-        android:textSize="25dp"
+        android:textSize="22dp"
         android:layout_marginTop="10dp">
     </TextView>
     <RadioButton
