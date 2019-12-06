@@ -45,7 +45,7 @@
       android:gravity="left|center_vertical"
       android:paddingBottom="3dp"
       android:text="Kobe"
-      android:textColor="#000000"
+      android:textColor="@android:color/black"
       android:textSize="20dp"
       android:textStyle="bold" />
 
@@ -73,7 +73,7 @@
       android:gravity="left|center_vertical"
       android:paddingBottom="5dp"
       android:text="Shiba Inu"
-      android:textColor="#000000"
+      android:textColor="@android:color/black"
       android:textSize="17dp" />
 
   <TextView
@@ -101,7 +101,7 @@
       android:gravity="left|center_vertical"
       android:paddingBottom="5dp"
       android:text="0.9 mi"
-      android:textColor="#000000"
+      android:textColor="@android:color/black"
       android:textSize="12dp"
 
 
@@ -150,7 +150,7 @@
       android:gravity="left|center_vertical"
       android:paddingBottom="3dp"
       android:text="Lucky"
-      android:textColor="#000000"
+      android:textColor="@android:color/black"
       android:textSize="20dp"
       android:textStyle="bold" />
 
@@ -178,7 +178,7 @@
       android:gravity="left|center_vertical"
       android:paddingBottom="5dp"
       android:text="Golden Retriever"
-      android:textColor="#000000"
+      android:textColor="@android:color/black"
       android:textSize="17dp" />
 
   <TextView
@@ -206,7 +206,7 @@
       android:gravity="left|center_vertical"
       android:paddingBottom="5dp"
       android:text="1.5 mi"
-      android:textColor="#000000"
+      android:textColor="@android:color/black"
       android:textSize="12dp"
 
 
@@ -255,7 +255,7 @@
       android:gravity="left|center_vertical"
       android:paddingBottom="3dp"
       android:text="Daisy"
-      android:textColor="#000000"
+      android:textColor="@android:color/black"
       android:textSize="20dp"
       android:textStyle="bold" />
 
@@ -283,7 +283,7 @@
       android:gravity="left|center_vertical"
       android:paddingBottom="5dp"
       android:text="Ginger Tabby"
-      android:textColor="#000000"
+      android:textColor="@android:color/black"
       android:textSize="17dp" />
 
   <TextView
@@ -311,7 +311,7 @@
       android:gravity="left|center_vertical"
       android:paddingBottom="5dp"
       android:text="1.6 mi"
-      android:textColor="#000000"
+      android:textColor="@android:color/black"
       android:textSize="12dp"
 
 
