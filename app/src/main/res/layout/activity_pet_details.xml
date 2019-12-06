@@ -18,148 +18,323 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" >
     </ListView>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
-        android:layout_marginLeft="35dp"
 
-        android:text="@string/c"
-        android:textSize="32sp" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="-43dp"
-        android:layout_marginLeft="100dp"
-        android:text="@string/id"
-        android:textSize="32sp" />
-    <Button
-        android:id="@+id/pet_add_detail"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="-50dp"
-        android:layout_marginLeft="200dp"
-        android:layout_marginRight="50dp"
-        android:text="@string/details"
-        android:textSize="16sp" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
-        android:layout_marginLeft="35dp"
-        android:text="@string/c"
-        android:textSize="32sp" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="-42dp"
-        android:layout_marginLeft="100dp"
+ <RelativeLayout
+     android:id="@+id/pet_add_detail"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginLeft="20dp"
+     android:layout_marginTop="15dp"
+     android:clickable="true">
 
-        android:text="@string/id"
-        android:textSize="32sp" />
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="-50dp"
-        android:layout_marginLeft="200dp"
-        android:layout_marginRight="50dp"
-        android:text="@string/details"
-        android:textSize="16sp" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
-        android:layout_marginLeft="35dp"
+  <Button
+      android:id="@+id/Image"
+      android:layout_width="70dp"
+      android:layout_height="70dp"
+      android:background="@drawable/dog_pic1"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentTop="true" />
 
-        android:text="@string/d"
-        android:textSize="32sp" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="-42dp"
-        android:layout_marginLeft="100dp"
+  <TextView
+      android:id="@+id/Title"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignTop="@id/Image"
+      android:layout_marginLeft="15dp"
+      android:layout_toRightOf="@id/Image"
+      android:gravity="left|center_vertical"
+      android:paddingBottom="3dp"
+      android:text="Kobe"
+      android:textColor="#000000"
+      android:textSize="20dp"
+      android:textStyle="bold" />
 
-        android:text="@string/id"
-        android:textSize="32sp" />
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="-50dp"
-        android:layout_marginLeft="200dp"
-        android:layout_marginRight="50dp"
-        android:text="@string/details"
-        android:textSize="16sp" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
-        android:layout_marginLeft="35dp"
+  <Button
+      android:id="@+id/gender"
+      android:layout_width="17dp"
+      android:layout_height="17dp"
+      android:layout_marginLeft="10dp"
+      android:layout_marginTop="5dp"
+      android:layout_toRightOf="@id/Title"
+      android:background="@drawable/boy"
+      android:gravity="center_vertical"
+      android:padding="5dp"
+      android:textColor="#ffffff"
+      android:textStyle="bold"
 
-        android:text="@string/d"
-        android:textSize="32sp" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="-42dp"
-        android:layout_marginLeft="100dp"
+      />
+  <TextView
+      android:id="@+id/Description"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/Title"
+      android:layout_marginLeft="15dp"
+      android:layout_toRightOf="@id/Image"
+      android:gravity="left|center_vertical"
+      android:paddingBottom="5dp"
+      android:text="Shiba Inu"
+      android:textColor="#000000"
+      android:textSize="17dp" />
 
-        android:text="@string/id"
-        android:textSize="32sp" />
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="-50dp"
-        android:layout_marginLeft="200dp"
-        android:layout_marginRight="50dp"
-        android:text="@string/details"
-        android:textSize="16sp" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
-        android:layout_marginLeft="35dp"
+  <TextView
+      android:id="@+id/Age"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/Title"
+      android:gravity="left|center_vertical"
+      android:layout_alignTop="@id/Description"
+      android:layout_alignBottom="@id/Description"
+      android:layout_marginLeft="10dp"
+      android:layout_toRightOf="@id/Description"
 
-        android:text="@string/c"
-        android:textSize="32sp" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="-42dp"
-        android:layout_marginLeft="100dp"
+      android:text="1 years old"
+      android:textColor="#808080"
+      android:textSize="13dp" />
 
-        android:text="@string/id"
-        android:textSize="32sp" />
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="-50dp"
-        android:layout_marginLeft="200dp"
-        android:layout_marginRight="50dp"
-        android:text="@string/details"
-        android:textSize="16sp" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
-        android:layout_marginLeft="35dp"
-        android:layout_marginRight="300dp"
-        android:text="@string/d"
-        android:textSize="32sp" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="-42dp"
-        android:layout_marginLeft="100dp"
+  <TextView
+      android:id="@+id/Distance"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignBottom="@id/Description"
+      android:layout_alignParentRight="true"
+      android:layout_marginRight="30dp"
+      android:gravity="left|center_vertical"
+      android:paddingBottom="5dp"
+      android:text="0.9 mi"
+      android:textColor="#000000"
+      android:textSize="12dp"
 
-        android:text="@string/id"
-        android:textSize="32sp" />
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="-50dp"
-        android:layout_marginLeft="200dp"
-        android:layout_marginRight="50dp"
-        android:text="@string/details"
-        android:textSize="16sp" />
+
+      />
+
+
+  <TextView
+      android:id="@+id/price"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentTop="true"
+      android:layout_alignParentRight="true"
+      android:layout_marginRight="20dp"
+      android:text="$17/hr"
+      android:textColor="#EA6E2E"
+      android:textSize="20dp"
+      android:textStyle="bold"
+
+      />
+
+ </RelativeLayout>
+
+ <RelativeLayout
+     android:id="@+id/pet_add_detail1"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginLeft="20dp"
+     android:layout_marginTop="15dp"
+     android:clickable="true">
+
+  <Button
+      android:id="@+id/Image1"
+      android:layout_width="70dp"
+      android:layout_height="70dp"
+      android:background="@drawable/dog_pic3"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentTop="true" />
+
+  <TextView
+      android:id="@+id/Title1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignTop="@id/Image1"
+      android:layout_marginLeft="15dp"
+      android:layout_toRightOf="@id/Image1"
+      android:gravity="left|center_vertical"
+      android:paddingBottom="3dp"
+      android:text="Lucky"
+      android:textColor="#000000"
+      android:textSize="20dp"
+      android:textStyle="bold" />
+
+  <Button
+      android:id="@+id/endorsed1"
+      android:layout_width="20dp"
+      android:layout_height="20dp"
+      android:layout_marginLeft="10dp"
+      android:layout_marginTop="5dp"
+      android:layout_toRightOf="@id/Title1"
+      android:background="@drawable/girl"
+      android:gravity="center_vertical"
+      android:padding="5dp"
+      android:textColor="#ffffff"
+      android:textStyle="bold"
+
+      />
+  <TextView
+      android:id="@+id/Description1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/Title1"
+      android:layout_marginLeft="15dp"
+      android:layout_toRightOf="@id/Image1"
+      android:gravity="left|center_vertical"
+      android:paddingBottom="5dp"
+      android:text="Golden Retriever"
+      android:textColor="#000000"
+      android:textSize="17dp" />
+
+  <TextView
+      android:id="@+id/Age1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/Title1"
+      android:gravity="left|center_vertical"
+      android:layout_alignTop="@id/Description1"
+      android:layout_alignBottom="@id/Description1"
+      android:layout_marginLeft="10dp"
+      android:layout_toRightOf="@id/Description1"
+
+      android:text="1 years old"
+      android:textColor="#808080"
+      android:textSize="13dp" />
+
+  <TextView
+      android:id="@+id/Distance1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignBottom="@id/Description1"
+      android:layout_alignParentRight="true"
+      android:layout_marginRight="30dp"
+      android:gravity="left|center_vertical"
+      android:paddingBottom="5dp"
+      android:text="1.5 mi"
+      android:textColor="#000000"
+      android:textSize="12dp"
+
+
+      />
+
+
+  <TextView
+      android:id="@+id/price1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentTop="true"
+      android:layout_alignParentRight="true"
+      android:layout_marginRight="20dp"
+      android:text="$20/hr"
+      android:textColor="#EA6E2E"
+      android:textSize="20dp"
+      android:textStyle="bold"
+
+      />
+
+ </RelativeLayout>
+
+ <RelativeLayout
+     android:id="@+id/pet_add_detail2"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginLeft="20dp"
+     android:layout_marginTop="15dp"
+     android:clickable="true">
+
+  <Button
+      android:id="@+id/Image2"
+      android:layout_width="70dp"
+      android:layout_height="70dp"
+      android:background="@drawable/cat_pic1"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentTop="true" />
+
+  <TextView
+      android:id="@+id/Title2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignTop="@id/Image2"
+      android:layout_marginLeft="15dp"
+      android:layout_toRightOf="@id/Image2"
+      android:gravity="left|center_vertical"
+      android:paddingBottom="3dp"
+      android:text="Daisy"
+      android:textColor="#000000"
+      android:textSize="20dp"
+      android:textStyle="bold" />
+
+  <Button
+      android:id="@+id/endorsed"
+      android:layout_width="20dp"
+      android:layout_height="20dp"
+      android:layout_marginLeft="10dp"
+      android:layout_marginTop="5dp"
+      android:layout_toRightOf="@id/Title2"
+      android:background="@drawable/girl"
+      android:gravity="center_vertical"
+      android:padding="5dp"
+      android:textColor="#ffffff"
+      android:textStyle="bold"
+
+      />
+  <TextView
+      android:id="@+id/Description2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/Title2"
+      android:layout_marginLeft="15dp"
+      android:layout_toRightOf="@id/Image2"
+      android:gravity="left|center_vertical"
+      android:paddingBottom="5dp"
+      android:text="Ginger Tabby"
+      android:textColor="#000000"
+      android:textSize="17dp" />
+
+  <TextView
+      android:id="@+id/Age2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/Title2"
+      android:gravity="left|center_vertical"
+      android:layout_alignTop="@id/Description2"
+      android:layout_alignBottom="@id/Description2"
+      android:layout_marginLeft="10dp"
+      android:layout_toRightOf="@id/Description2"
+
+      android:text="2 years old"
+      android:textColor="#808080"
+      android:textSize="13dp" />
+
+  <TextView
+      android:id="@+id/Distance2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignBottom="@id/Description2"
+      android:layout_alignParentRight="true"
+      android:layout_marginRight="30dp"
+      android:gravity="left|center_vertical"
+      android:paddingBottom="5dp"
+      android:text="1.6 mi"
+      android:textColor="#000000"
+      android:textSize="12dp"
+
+
+      />
+
+
+
+
+
+  <TextView
+      android:id="@+id/price2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentTop="true"
+      android:layout_alignParentRight="true"
+      android:layout_marginRight="20dp"
+      android:text="$15/hr"
+      android:textColor="#EA6E2E"
+      android:textSize="20dp"
+      android:textStyle="bold"
+
+      />
+
+ </RelativeLayout>
 
 </LinearLayout>

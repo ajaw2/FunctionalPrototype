@@ -8,16 +8,17 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.RelativeLayout;
 
 public class PetDetails extends AppCompatActivity implements View.OnClickListener{
-    private Button pet_add_detail_Button;
+    private RelativeLayout pet_add_detail_Button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pet_details);
 
-        pet_add_detail_Button = (Button) findViewById(R.id.pet_add_detail);
+        pet_add_detail_Button = (RelativeLayout) findViewById(R.id.pet_add_detail);
         pet_add_detail_Button.setOnClickListener(this);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
