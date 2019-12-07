@@ -13,6 +13,7 @@
         <activity android:name=".Filter"></activity>
         <activity android:name=".message" />
         <activity android:name=".ContactSitter"/>
+        <activity android:name=".ContactSitter2" />
         <activity android:name=".pet_selection" />
         <activity android:name=".PetDetails" />
         <activity android:name=".PetDetails2"/>
