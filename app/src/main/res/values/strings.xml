@@ -19,7 +19,7 @@
     <string name="pet">Pets</string>
     <string name="sitter">Sitters</string>
     <string name="sitter_near_me">Sitters Near Me</string>
-    <string name="sitter_selection1">PET TYPE</string>
+    <string name="sitter_selection1">PET PREFERENCE</string>
     <string name="pet_selection">What kind of pets do you want to sit?</string>
     <string name="other">Other</string>
     <string name="next">CONTINUE</string>
