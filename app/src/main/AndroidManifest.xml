@@ -17,6 +17,7 @@
         <activity android:name=".pet_selection" />
         <activity android:name=".PetDetails" />
         <activity android:name=".PetDetails2"/>
+        <activity android:name=".History" />
         <activity android:name=".Login" />
         <activity android:name=".Searching_for" />
         <activity android:name=".Register" />
