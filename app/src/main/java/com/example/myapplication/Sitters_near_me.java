@@ -61,7 +61,7 @@ public class Sitters_near_me extends AppCompatActivity implements View.OnClickLi
             Intent intent = new Intent(this, ContactSitter.class);
             startActivity(intent);
         }
-        if (v.getId() == R.id.sitter_filter) {
+        else if (v.getId() == R.id.sitter_filter) {
             Intent intent = new Intent(this, Filter.class);
             startActivity(intent);
         }
