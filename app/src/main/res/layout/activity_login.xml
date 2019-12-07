@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/background"
     tools:context=".Login">
 
     <TextView
@@ -13,39 +14,46 @@
         android:layout_marginTop="100dp"
         android:gravity="center"
         android:text="@string/login"
-        android:textSize="64sp" />
+        android:textSize="64sp"
+        android:textColor="#252422"
+        app:fontFamily="@font/aclonica"/>
 
     <EditText
         android:id = "@+id/name"
         android:layout_width = "match_parent"
-        android:layout_height = "wrap_content"
+        android:layout_height = "60dp"
         android:hint = "@string/id"
         android:focusable = "true"
+        android:background="@drawable/input_back"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginTop = "50dp"
+        android:paddingLeft="30dp"
         />
 
     <EditText
         android:id = "@+id/password"
         android:layout_width = "match_parent"
-        android:layout_height = "wrap_content"
+        android:layout_height = "60dp"
         android:hint = "@string/password"
         android:focusable = "true"
+        android:background="@drawable/input_back"
+        android:paddingLeft="30dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginTop = "25dp" />
 
+
     <Button
         android:id="@+id/login_button"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:layout_marginTop="25dp"
         android:layout_marginLeft="200dp"
         android:layout_marginRight="25dp"
         android:text="@string/login"
-        android:textSize="24sp"/>
-
-    
-
+        android:textColor="#ffffff"
+        android:background="@drawable/signin_button"
+        android:textSize="24sp"
+        />
 </LinearLayout>
