@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp">
+
+        <Button
+            android:id="@+id/Image_imp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/bob"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true" />
+
+        <TextView
+            android:id="@+id/Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/Image_imp"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@id/Image_imp"
+            android:gravity="left|center_vertical"
+            android:paddingBottom="3dp"
+            android:text="Bob"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Title"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@id/Image_imp"
+            android:gravity="left|center_vertical"
+            android:paddingBottom="5dp"
+            android:text="Animal Lovers"
+            android:textColor="#000000"
+            android:textSize="17dp"
+            android:layout_toEndOf="@id/Image_imp"
+            tools:ignore="NotSibling" />
+
+        <RatingBar
+            android:id="@+id/simpleRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_below="@id/Description"
+            android:rating="4"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:layout_marginTop="-10dp"
+            android:layout_marginBottom="-10dp"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="REVIEW"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
