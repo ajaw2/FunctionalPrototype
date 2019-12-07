@@ -57,6 +57,13 @@ public class Filter extends AppCompatActivity{
         applyButton = (Button) findViewById(R.id.applyButton);
 
 
+        applyButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Filter.this, Sitters_near_me.class);
+                startActivity(intent);
+            }
+        });
 
         ageButton1.setOnClickListener(new View.OnClickListener() {
             @Override

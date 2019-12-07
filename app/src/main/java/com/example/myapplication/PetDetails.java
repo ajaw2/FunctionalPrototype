@@ -8,10 +8,12 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.RelativeLayout;
 
 public class PetDetails extends AppCompatActivity implements View.OnClickListener{
     private RelativeLayout pet_add_detail_Button;
+    private ImageButton pet_detail_filter_Button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +22,9 @@ public class PetDetails extends AppCompatActivity implements View.OnClickListene
 
         pet_add_detail_Button = (RelativeLayout) findViewById(R.id.pet_add_detail);
         pet_add_detail_Button.setOnClickListener(this);
+
+        pet_detail_filter_Button = findViewById(R.id.pet_detail_filter);
+        pet_detail_filter_Button.setOnClickListener(this);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
