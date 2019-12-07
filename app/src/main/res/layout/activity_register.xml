@@ -5,20 +5,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Register"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@drawable/background">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
         android:gravity="center"
         android:text="@string/reg"
+        android:textColor="#252422"
+        android:fontFamily="@font/aclonica"
         android:textSize="64dp"
         />
     <EditText
         android:id = "@+id/name"
         android:layout_width = "match_parent"
-        android:layout_height = "wrap_content"
+        android:layout_height = "50dp"
         android:hint = "@string/name"
+        android:padding="10dp"
+        android:background="@drawable/input_back"
         android:focusable = "true"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
@@ -47,10 +52,12 @@
     <Button
         android:id="@+id/register_button"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:layout_marginTop="25dp"
         android:layout_marginLeft="200dp"
         android:layout_marginRight="25dp"
         android:text="@string/reg"
+        android:background="@drawable/register_button"
+        android:textColor="#ffffff"
         android:textSize="24sp"/>
 </LinearLayout>
