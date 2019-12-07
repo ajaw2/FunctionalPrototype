@@ -34,7 +34,7 @@ public class Searching_for extends AppCompatActivity implements View.OnClickList
     @Override
     public void onClick(View v) {
         if (v.getId() == R.id.search_sitter) {
-            Intent intent = new Intent(Searching_for.this, sitter_selection1.class);
+            Intent intent = new Intent(Searching_for.this, Sitters_near_me.class);
             startActivity(intent);
         } else if (v.getId() == R.id.search_pet) {
             Intent intent = new Intent(Searching_for.this, pet_selection.class);
