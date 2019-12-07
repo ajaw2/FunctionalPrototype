@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
@@ -41,6 +42,8 @@ public class Filter extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_filter);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         ageButton1= (Button) findViewById(R.id.pet_age1);
         ageButton2=(Button) findViewById(R.id.pet_age2);
         ageButton3=(Button) findViewById(R.id.pet_age3);
@@ -53,15 +56,7 @@ public class Filter extends AppCompatActivity{
         sizeButton4=(Button) findViewById(R.id.button_size4);
         applyButton = (Button) findViewById(R.id.applyButton);
 
-        getActionBar().setDisplayHomeAsUpEnabled(true);
 
-        applyButton.setOnClickListener((new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(Filter.this,Sitters_near_me.class);
-                startActivity(i);
-            }
-        }));
 
         ageButton1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -190,14 +185,17 @@ public class Filter extends AppCompatActivity{
 
         SeekBar sk = (SeekBar) findViewById(R.id.seekBar);
         sk.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
+
             @Override
             public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
                 TextView t=(TextView)findViewById(R.id.seekbarText);
                 t.setText(String.valueOf(i));
             }
+
             @Override
             public void onStartTrackingTouch(SeekBar seekBar) {
             }
+
             @Override
             public void onStopTrackingTouch(SeekBar seekBar) {
             }
@@ -209,12 +207,18 @@ public class Filter extends AppCompatActivity{
     public boolean onOptionsItemSelected(MenuItem item) {
 
         if (item.getItemId()==R.id.settings_mini){
-            Intent intent = new Intent(this, Sitters_near_me.class);
+            Intent intent = new Intent(this, AccountPage.class);
             startActivity(intent);
         } else {
-            Intent intent = new Intent(getApplicationContext(), pet_info.class);
+            Intent intent = new Intent(getApplicationContext(), Sitters_near_me.class);
             startActivity(intent);
         }
+        return true;
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu, menu);
         return true;
     }
 }
