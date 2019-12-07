@@ -9,12 +9,12 @@
 
     <ImageButton
         android:id="@+id/sitter_filter"
-        android:layout_width="14dp"
-        android:layout_height="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_filter"
         android:layout_gravity="right"
-        android:layout_marginTop="10dp"
         android:layout_marginRight="25dp"
-        android:background="@drawable/ic_filter" />
+        android:layout_marginTop="10dp"/>
 
     <View
         android:layout_width="match_parent"
@@ -147,11 +147,12 @@
 
         <Button
             android:id="@+id/Image1"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:background="@drawable/ann"
+            android:layout_width="40dp"
+            android:layout_height="33dp"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true" />
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/ann" />
 
         <TextView
             android:id="@+id/Title1"
@@ -234,11 +235,11 @@
 
         <Button
             android:id="@+id/Image2"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:background="@drawable/jenny"
+            android:layout_width="31dp"
+            android:layout_height="32dp"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true" />
+            android:layout_alignParentTop="true"
+            android:background="@drawable/jenny" />
 
         <TextView
             android:id="@+id/Title2"
@@ -263,7 +264,7 @@
             android:layout_toRightOf="@id/Image2"
             android:gravity="left|center_vertical"
             android:paddingBottom="5dp"
-            android:text="Dog Lover"
+            android:text="Animal Lovers"
             android:textColor="#000000"
             android:textSize="17dp" />
 

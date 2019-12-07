@@ -43,7 +43,7 @@ public class Sitters_near_me extends AppCompatActivity implements View.OnClickLi
             Intent intent = new Intent(this, AccountPage.class);
             startActivity(intent);
         } else {
-            Intent intent = new Intent(getApplicationContext(), sitter_details.class);
+            Intent intent = new Intent(getApplicationContext(), Searching_for.class);
             startActivity(intent);
         }
         return true;
