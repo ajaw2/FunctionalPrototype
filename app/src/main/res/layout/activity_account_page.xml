@@ -25,27 +25,27 @@
         >
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/something"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:layout_marginLeft="30dp"
             android:layout_marginTop="10dp"
-            />
+            android:src="@drawable/w" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="28sp"
-            android:text="XXX"
+            android:text="Winnie"
             android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
+            android:layout_marginRight="20dp"
             android:layout_marginTop="20dp"
             android:layout_weight="2"
             />
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="10dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="20dp"
             android:layout_weight="1"
             android:layout_marginTop="20dp"
             android:background="@drawable/dropright_icon"
@@ -95,24 +95,16 @@
 
         <Button
             android:id="@+id/become_sitter"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="10dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="20dp"
             android:layout_marginTop="20dp"
             android:background="@drawable/dropright_icon"
-            android:layout_marginLeft="20dp"
             android:layout_weight="1"
             />
 
     </LinearLayout>
 
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="@android:color/darker_gray"
-        android:layout_marginTop="10dp"
-        android:layout_marginRight="30dp"
-        android:layout_marginLeft="20dp"
-        />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -125,33 +117,25 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="24sp"
-            android:text="XXX"
+            android:text="History"
             android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
+            android:layout_marginRight="20dp"
             android:layout_marginTop="20dp"
-            android:layout_weight="2"
+            android:layout_weight="5"
             />
 
         <Button
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_marginLeft="20dp"
+            android:id="@+id/go_to_history"
+            android:layout_width="10dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="20dp"
             android:layout_marginTop="20dp"
             android:background="@drawable/dropright_icon"
-            android:gravity="" />
+            android:layout_weight="1"
+            />
 
     </LinearLayout>
-
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="@android:color/darker_gray"
-        android:layout_marginTop="20dp"
-        android:layout_marginRight="30dp"
-        android:layout_marginLeft="30dp"
-        />
 
 
 </LinearLayout>

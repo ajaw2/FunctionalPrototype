@@ -13,6 +13,7 @@ import android.widget.Button;
 
 public class AccountPage extends AppCompatActivity implements View.OnClickListener {
     private Button become_sitter;
+    private Button go_to_history;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +23,9 @@ public class AccountPage extends AppCompatActivity implements View.OnClickListen
         become_sitter = (Button) findViewById(R.id.become_sitter);
         become_sitter.setOnClickListener(this);
 
+        go_to_history = (Button) findViewById(R.id.go_to_history);
+        go_to_history.setOnClickListener(this);
+
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
@@ -29,6 +33,10 @@ public class AccountPage extends AppCompatActivity implements View.OnClickListen
     public void onClick(View v) {
         if (v.getId() == R.id.become_sitter) {
             Intent intent = new Intent(this, Become_sitter.class);
+            startActivity(intent);
+        }
+        if (v.getId() == R.id.go_to_history) {
+            Intent intent = new Intent(this, History.class);
             startActivity(intent);
         }
     }
