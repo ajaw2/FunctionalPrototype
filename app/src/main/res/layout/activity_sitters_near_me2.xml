@@ -55,6 +55,7 @@
             android:paddingBottom="3dp"
             android:text="Bob"
             android:textColor="#000000"
+            android:fontFamily="sans-serif-condensed-medium"
             android:textSize="20dp"
             android:textStyle="bold" />
 
@@ -69,6 +70,7 @@
             android:paddingBottom="5dp"
             android:text="Animal Lover"
             android:textColor="#000000"
+            android:fontFamily="sans-serif-condensed-medium"
             android:textSize="17dp"
             android:layout_toEndOf="@id/Image_imp2"
             tools:ignore="NotSibling" />
@@ -83,6 +85,7 @@
             android:paddingBottom="5dp"
             android:text="1.5 mi"
             android:textColor="#000000"
+            android:fontFamily="sans-serif-condensed-medium"
             android:textSize="12dp"
             android:layout_marginRight="30dp"
             android:layout_alignTop="@+id/simpleRatingBar2"
@@ -110,6 +113,7 @@
             android:textStyle="bold"
             android:layout_marginLeft="15dp"
             android:textColor="#ffffff"
+            android:fontFamily="sans-serif-condensed-medium"
             android:text="friend endorsed"
             android:gravity="center_vertical"
             android:layout_toRightOf="@id/Title2"
@@ -127,7 +131,8 @@
             android:layout_alignParentRight="true"
             android:layout_marginRight="20dp"
             android:text="$17"
-            android:textColor="#EA6E2E"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="sans-serif-condensed-medium"
             android:textSize="25dp"
             android:textStyle="bold"
 
@@ -159,6 +164,7 @@
             android:paddingBottom="3dp"
             android:text="Ann"
             android:textColor="#000000"
+            android:fontFamily="sans-serif-condensed-medium"
             android:textSize="20dp"
             android:textStyle="bold" />
 
@@ -173,6 +179,7 @@
             android:paddingBottom="5dp"
             android:text="Cat Lover"
             android:textColor="#000000"
+            android:fontFamily="sans-serif-condensed-medium"
             android:textSize="17dp" />
 
         <TextView
@@ -185,6 +192,7 @@
             android:paddingBottom="5dp"
             android:text="1.8 mi"
             android:textColor="#000000"
+            android:fontFamily="sans-serif-condensed-medium"
             android:textSize="12dp"
             android:layout_marginRight="30dp"
             android:layout_alignTop="@+id/simpleRatingBar12"
@@ -214,7 +222,8 @@
             android:layout_alignParentRight="true"
             android:layout_marginRight="20dp"
             android:text="$20"
-            android:textColor="#EA6E2E"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="sans-serif-condensed-medium"
             android:textSize="25dp"
             android:textStyle="bold"
 

@@ -19,12 +19,12 @@
         android:textSize="30sp"
         android:textColor="@android:color/black"
         android:paddingBottom="10dp"
+        android:fontFamily="sans-serif-condensed-medium"
         />
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
         android:layout_gravity="center"
         android:orientation="vertical"
         >
@@ -39,39 +39,48 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Location: Electrical and Computer Engineering Building, 306 N Wright St, Urbana, IL 61801"
-            android:layout_marginTop="10dp"
+            android:text="Location:"
+            android:layout_marginTop="5dp"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:textColor="@android:color/black"
-
+            android:fontFamily="sans-serif-condensed-medium"
             android:textSize="20sp"/>
-
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Electrical and Computer Engineering Building, 306 N Wright St, Urbana, IL 61801"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Description: "
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:textSize="20sp"
-            android:textColor="@android:color/black"/>
+            android:textColor="@android:color/black"
+            android:fontFamily="sans-serif-condensed-medium"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/bob"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:textColor="@android:color/black"
-            android:background="@drawable/textbox"
             android:paddingLeft="5dp"
             android:textSize="20sp"/>
 
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
 
             <Button
                 android:id="@+id/contact_owner"
@@ -82,17 +91,23 @@
                 android:text="Contact Sitter"
                 android:textSize="25dp"
                 android:layout_marginLeft="15dp"
-                android:padding="20dp"/>
+                android:padding="20dp"
+                android:background="@drawable/button_selector"
+                android:textColor="@color/colorAccent"
+                android:fontFamily="sans-serif-condensed-medium"/>
 
             <Button
                 android:id="@+id/hire"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
                 android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="50dp"
+                android:background="@drawable/button_selector"
+                android:textColor="@color/colorAccent"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="20dp"
                 android:text="Start"
-                android:textSize="25dp"
-                android:padding="20dp"/>
+                android:textSize="25dp" />
 
 
         </LinearLayout>

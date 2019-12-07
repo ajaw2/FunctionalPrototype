@@ -17,7 +17,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_margin="10dp"
-
+        android:layout_marginTop="10dp"
         >
         <!--pet type selection-->
         <TextView
@@ -25,6 +25,8 @@
             android:layout_height="wrap_content"
             android:text="@string/sitter_selection1"
             android:textSize="18sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:fontFamily="sans-serif-condensed-medium"
             />
         <LinearLayout
             android:layout_width="match_parent"
@@ -39,7 +41,8 @@
                 android:text="@string/d"
                 android:textSize="20sp"
                 android:background="@drawable/button_selector"
-                android:textColor="@drawable/btn_text_selector"
+                android:textColor="@color/colorAccent"
+                android:fontFamily="sans-serif-condensed-medium"
                 android:layout_weight="1"
                 android:layout_marginRight="10dp"/>
 
@@ -52,7 +55,8 @@
                 android:text="@string/c"
                 android:textSize="20sp"
                 android:background="@drawable/button_selector"
-                android:textColor="@drawable/btn_text_selector"
+                android:textColor="@color/colorAccent"
+                android:fontFamily="sans-serif-condensed-medium"
                 android:layout_weight="1"
                 android:layout_marginRight="10dp"/>
 
@@ -64,7 +68,8 @@
                 android:text="@string/other"
                 android:textSize="20sp"
                 android:background="@drawable/button_selector"
-                android:textColor="@drawable/btn_text_selector"
+                android:textColor="@color/colorAccent"
+                android:fontFamily="sans-serif-condensed-medium"
                 android:layout_weight="1"/>
 
         </LinearLayout>
@@ -77,6 +82,8 @@
             android:text="@string/petsize"
             android:textSize="18sp"
             android:layout_marginTop="30dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:fontFamily="sans-serif-condensed-medium"
             />
         <LinearLayout
             android:layout_width="match_parent"
@@ -90,7 +97,8 @@
                 android:layout_weight="1"
                 android:text="@string/pet_size1"
                 android:background="@drawable/button_selector"
-                android:textColor="@drawable/btn_text_selector"
+                android:textColor="@color/colorAccent"
+                android:fontFamily="sans-serif-condensed-medium"
                 android:textSize="20sp"
                 android:layout_marginRight="10dp"/>
 
@@ -100,7 +108,8 @@
                 android:layout_weight="1"
                 android:text= "@string/pet_size2"
                 android:background="@drawable/button_selector"
-                android:textColor="@drawable/btn_text_selector"
+                android:textColor="@color/colorAccent"
+                android:fontFamily="sans-serif-condensed-medium"
                 android:textSize="20sp"
                 android:layout_marginRight="10dp"/>
 
@@ -110,7 +119,8 @@
                 android:layout_weight="1"
                 android:text= "@string/pet_size3"
                 android:background="@drawable/button_selector"
-                android:textColor="@drawable/btn_text_selector"
+                android:textColor="@color/colorAccent"
+                android:fontFamily="sans-serif-condensed-medium"
                 android:layout_marginRight="10dp"
                 android:textSize="20sp"/>
 
@@ -120,7 +130,8 @@
                 android:layout_weight="1"
                 android:text= "@string/pet_size4"
                 android:background="@drawable/button_selector"
-                android:textColor="@drawable/btn_text_selector"
+                android:textColor="@color/colorAccent"
+                android:fontFamily="sans-serif-condensed-medium"
                 android:textSize="20sp"/>
 
         </LinearLayout>
@@ -133,6 +144,8 @@
             android:text="@string/pet_age"
             android:textSize="18sp"
             android:layout_marginTop="30dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:fontFamily="sans-serif-condensed-medium"
             />
 
         <LinearLayout
@@ -145,18 +158,20 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/button_selector"
+                android:textColor="@color/colorAccent"
+                android:fontFamily="sans-serif-condensed-medium"
                 android:text="@string/pet_age1"
                 android:textSize="20sp"
-                android:textColor="@drawable/btn_text_selector"
                 android:padding="10dp"/>
             <Button
                 android:id="@+id/pet_age2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/button_selector"
+                android:textColor="@color/colorAccent"
+                android:fontFamily="sans-serif-condensed-medium"
                 android:text="@string/pet_age2"
                 android:textSize="20sp"
-                android:textColor="@drawable/btn_text_selector"
                 android:layout_marginLeft="20dp"
                 />
 
@@ -165,9 +180,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/button_selector"
+                android:textColor="@color/colorAccent"
+                android:fontFamily="sans-serif-condensed-medium"
                 android:text="@string/pet_age3"
                 android:textSize="20sp"
-                android:textColor="@drawable/btn_text_selector"
                 android:layout_marginLeft="20dp"
                 android:padding="10dp"
                 />
@@ -180,6 +196,8 @@
             android:text="PRICE (USD)"
             android:textSize="18sp"
             android:layout_marginTop="30dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:fontFamily="sans-serif-condensed-medium"
             />
         <LinearLayout
             android:layout_width="match_parent"
@@ -206,12 +224,15 @@
 
     <Button
         android:id="@+id/applyButton2"
-        android:layout_marginTop="120dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:layout_marginTop="120dp"
         android:text="APPLY"
         android:background="@drawable/button_selector"
-        android:layout_gravity="center|bottom" />
+        android:textColor="@color/colorAccent"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="20sp"/>
 
     <!--    </ScrollView>-->
 

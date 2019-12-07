@@ -61,6 +61,7 @@
             android:paddingBottom="3dp"
             android:text="Kobe"
             android:textColor="#000000"
+            android:fontFamily="sans-serif-condensed-medium"
             android:textSize="20dp"
             android:textStyle="bold" />
 
@@ -89,6 +90,7 @@
             android:paddingBottom="5dp"
             android:text="Shiba Inu"
             android:textColor="#000000"
+            android:fontFamily="sans-serif-condensed-medium"
             android:textSize="17dp" />
 
         <TextView
@@ -103,6 +105,7 @@
             android:layout_toRightOf="@id/Description2"
 
             android:text="1 years old"
+            android:fontFamily="sans-serif-condensed-medium"
             android:textColor="#808080"
             android:textSize="13dp" />
 
@@ -116,6 +119,7 @@
             android:gravity="left|center_vertical"
             android:paddingBottom="5dp"
             android:text="0.9 mi"
+            android:fontFamily="sans-serif-condensed-medium"
             android:textColor="#000000"
             android:textSize="12dp"
 
@@ -131,7 +135,8 @@
             android:layout_alignParentRight="true"
             android:layout_marginRight="20dp"
             android:text="$17/hr"
-            android:textColor="#EA6E2E"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="sans-serif-condensed-medium"
             android:textSize="20dp"
             android:textStyle="bold"
 
@@ -166,6 +171,7 @@
             android:paddingBottom="3dp"
             android:text="Lucky"
             android:textColor="#000000"
+            android:fontFamily="sans-serif-condensed-medium"
             android:textSize="20dp"
             android:textStyle="bold" />
 
@@ -194,6 +200,7 @@
             android:paddingBottom="5dp"
             android:text="Golden Retriever"
             android:textColor="#000000"
+            android:fontFamily="sans-serif-condensed-medium"
             android:textSize="17dp" />
 
         <TextView
@@ -209,6 +216,7 @@
 
             android:text="1 years old"
             android:textColor="#808080"
+            android:fontFamily="sans-serif-condensed-medium"
             android:textSize="13dp" />
 
         <TextView
@@ -222,6 +230,7 @@
             android:paddingBottom="5dp"
             android:text="1.5 mi"
             android:textColor="#000000"
+            android:fontFamily="sans-serif-condensed-medium"
             android:textSize="12dp"
 
 
@@ -236,7 +245,8 @@
             android:layout_alignParentRight="true"
             android:layout_marginRight="20dp"
             android:text="$20/hr"
-            android:textColor="#EA6E2E"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="sans-serif-condensed-medium"
             android:textSize="20dp"
             android:textStyle="bold"
 

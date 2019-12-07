@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Login">
+    tools:context=".Login"
+    android:background="@drawable/background">
 
     <TextView
         android:layout_width="match_parent"
@@ -13,28 +14,36 @@
         android:layout_marginTop="100dp"
         android:gravity="center"
         android:text="@string/login"
-        android:textSize="64sp" />
+        android:textSize="64sp"
+        android:textColor="#252422"
+        android:fontFamily="@font/aclonica"/>
 
     <EditText
         android:id = "@+id/name"
         android:layout_width = "match_parent"
-        android:layout_height = "wrap_content"
+        android:layout_height = "60dp"
         android:hint = "@string/id"
+        android:paddingLeft="30dp"
+        android:background="@drawable/input_back"
+        android:fontFamily="sans-serif-condensed-medium"
         android:focusable = "true"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:layout_marginTop = "50dp"
+        android:layout_marginTop = "25dp"
         />
 
     <EditText
         android:id = "@+id/password"
         android:layout_width = "match_parent"
-        android:layout_height = "wrap_content"
+        android:layout_height = "60dp"
         android:hint = "@string/password"
+        android:paddingLeft="30dp"
+        android:background="@drawable/input_back"
+        android:fontFamily="sans-serif-condensed-medium"
         android:focusable = "true"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:layout_marginTop = "25dp" />
+        android:layout_marginTop = "25dp"/>
 
     <Button
         android:id="@+id/login_button"
@@ -44,7 +53,10 @@
         android:layout_marginLeft="200dp"
         android:layout_marginRight="25dp"
         android:text="@string/login"
-        android:textSize="24sp"/>
+        android:textSize="24sp"
+        android:background="@drawable/button_selector"
+        android:textColor="@color/colorAccent"
+        android:fontFamily="sans-serif-condensed-medium"/>
 
     
 

@@ -16,6 +16,8 @@
         android:layout_marginRight="40dp"
         android:gravity="center"
         android:text="@string/searching_title"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="@color/colorPrimaryDark"
         android:textSize="55sp"
         />
     <Button
@@ -27,6 +29,9 @@
         android:layout_marginRight="50dp"
         android:text="@string/pet"
         android:textSize="24sp"
+        android:background="@drawable/button_selector"
+        android:textColor="@color/colorAccent"
+        android:fontFamily="sans-serif-condensed-medium"
         />
     <Button
         android:id="@+id/search_sitter"
@@ -37,5 +42,8 @@
         android:layout_marginRight="50dp"
         android:text="@string/sitter"
         android:textSize="24sp"
+        android:background="@drawable/button_selector"
+        android:textColor="@color/colorAccent"
+        android:fontFamily="sans-serif-condensed-medium"
         />
 </LinearLayout>

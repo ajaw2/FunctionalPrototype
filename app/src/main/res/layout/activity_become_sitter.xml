@@ -12,7 +12,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Pet preference"
-        android:textSize="24sp">
+        android:textSize="24sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:fontFamily="sans-serif-condensed-medium">
     </TextView>
 
     <Spinner
@@ -22,13 +24,17 @@
         android:entries="@array/pet_kinds"
         android:padding="10dp"
         android:layout_margin="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:fontFamily="sans-serif-condensed-medium"
         />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Choose calendar:"
-        android:textSize="24sp">
+        android:textSize="24sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:fontFamily="sans-serif-condensed-medium">
     </TextView>
     <CalendarView
         android:id="@+id/simpleCalendarView"
@@ -42,7 +48,9 @@
         android:layout_height="wrap_content"
         android:text="Expected rate:"
         android:textSize="24sp"
-        android:layout_marginTop="10dp">
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:fontFamily="sans-serif-condensed-medium">
     </TextView>
 
 
@@ -53,12 +61,18 @@
         android:entries="@array/rate"
         android:padding="10dp"
         android:layout_margin="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:fontFamily="sans-serif-condensed-medium"
         />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Submit"
-        android:layout_gravity="right"/>
+        android:layout_gravity="right"
+        android:textColor="@color/colorAccent"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:background="@drawable/button_selector"
+        android:textSize="16sp"/>
 
 </LinearLayout>
