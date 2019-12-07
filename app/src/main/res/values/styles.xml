@@ -3,9 +3,9 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@android:color/holo_blue_light</item>
+        <item name="colorPrimary">#EA6E2E</item>
         <item name="colorPrimaryDark">@android:color/black</item>
-        <item name="colorAccent">@android:color/holo_orange_dark</item>
+        <item name="colorAccent">#f5a078</item>
     </style>
     <style name="AudioFileInfoOverlayText">
         <item name="android:paddingLeft">4px</item>
