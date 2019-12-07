@@ -55,7 +55,7 @@ public class filter2 extends AppCompatActivity{
         applyButton2.setOnClickListener((new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(filter2.this,PetDetails.class);
+                Intent i = new Intent(filter2.this,PetDetails2.class);
                 startActivity(i);
             }
         }));
