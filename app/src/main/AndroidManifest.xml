@@ -17,7 +17,7 @@
         <activity android:name=".pet_selection" />
         <activity android:name=".PetDetails" />
         <activity android:name=".PetDetails2"/>
-        <activity android:name=".History" />
+        <activity android:name=".History" android:label="History"/>
         <activity android:name=".comment" />
         <activity android:name=".Login" />
         <activity android:name=".SittersNearMe2" />
@@ -37,6 +37,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

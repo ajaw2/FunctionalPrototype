@@ -12,13 +12,15 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
         android:layout_marginLeft="40dp"
+        android:layout_marginTop="100dp"
         android:layout_marginRight="40dp"
+        android:fontFamily="@font/carter_one"
         android:gravity="center"
         android:text="@string/title"
+        android:textColor="#252422"
         android:textSize="50sp"
-        />
+        app:fontFamily="@font/aclonica" />
     <Button
         android:id="@+id/login_button"
         android:layout_width="match_parent"
@@ -27,6 +29,8 @@
         android:layout_marginLeft="50dp"
         android:layout_marginRight="50dp"
         android:text="@string/login"
+        android:textColor="#ffffff"
+        android:background="@drawable/signin_button"
         android:textSize="24sp"
         />
     <Button
@@ -36,7 +40,9 @@
         android:layout_marginTop="25dp"
         android:layout_marginLeft="50dp"
         android:layout_marginRight="50dp"
+        android:background="@drawable/register_button"
         android:text="@string/reg"
+        android:textColor="#ffffff"
         android:textSize="24sp"
         />
 </LinearLayout>
