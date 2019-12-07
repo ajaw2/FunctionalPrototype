@@ -85,12 +85,12 @@
                 android:padding="20dp"/>
 
             <Button
-                android:id="@+id/hire"
+                android:id="@+id/fire"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
                 android:layout_gravity="center_horizontal"
-                android:text="Start"
+                android:text="END"
                 android:textSize="25dp"
                 android:padding="20dp"/>
 

@@ -37,7 +37,7 @@ public class Searching_for extends AppCompatActivity implements View.OnClickList
             Intent intent = new Intent(Searching_for.this, Sitters_near_me.class);
             startActivity(intent);
         } else if (v.getId() == R.id.search_pet) {
-            Intent intent = new Intent(Searching_for.this, pet_selection.class);
+            Intent intent = new Intent(Searching_for.this, PetDetails.class);
             startActivity(intent);
         }
     }

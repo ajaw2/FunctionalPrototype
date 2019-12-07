@@ -15,15 +15,15 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class ContactSitter extends AppCompatActivity implements View.OnClickListener{
-    private Button hire;
+public class ContactSitter2 extends AppCompatActivity implements View.OnClickListener{
+    private Button fire;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_contact_owner);
-        hire = (Button) findViewById(R.id.hire);
-        hire.setOnClickListener(this);
+        setContentView(R.layout.activity_contact_sitter2);
+        fire = (Button) findViewById(R.id.fire);
+        fire.setOnClickListener(this);
 
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -44,8 +44,8 @@ public class ContactSitter extends AppCompatActivity implements View.OnClickList
 
     @Override
     public void onClick(View v) {
-        if (v.getId() == R.id.hire) {
-            Intent intent = new Intent(this, ContactSitter2.class);
+        if (v.getId() == R.id.fire) {
+            Intent intent = new Intent(this, ContactSitter.class);
             startActivity(intent);
         }
     }
