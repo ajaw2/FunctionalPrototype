@@ -8,7 +8,7 @@
     android:orientation="vertical">
 
     <RelativeLayout
-        android:id="@+id/pet_search"
+        android:id="@+id/pet_search2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
@@ -16,26 +16,26 @@
         android:clickable="true">
 
         <SearchView
-            android:id="@+id/pet_search_box"
+            android:id="@+id/pet_search_box2"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
 
             android:labelFor="@string/search" />
 
         <ImageButton
-            android:id="@+id/pet_detail_filter"
+            android:id="@+id/pet_detail_filter2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentTop="@id/pet_search_box"
+            android:layout_alignParentTop="@id/pet_search_box2"
             android:layout_gravity="right"
             android:layout_marginTop="10dp"
-            android:layout_toRightOf="@id/pet_search_box"
+            android:layout_toRightOf="@id/pet_search_box2"
             android:background="@drawable/ic_filter" />
     </RelativeLayout>
 
-    
+
     <RelativeLayout
-        android:id="@+id/pet_add_detail"
+        android:id="@+id/pet_add_detail2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
@@ -43,7 +43,7 @@
         android:clickable="true">
 
         <Button
-            android:id="@+id/Image"
+            android:id="@+id/Image2"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:background="@drawable/dog_pic1"
@@ -51,12 +51,12 @@
             android:layout_alignParentTop="true" />
 
         <TextView
-            android:id="@+id/Title"
+            android:id="@+id/Title2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignTop="@id/Image"
+            android:layout_alignTop="@id/Image2"
             android:layout_marginLeft="15dp"
-            android:layout_toRightOf="@id/Image"
+            android:layout_toRightOf="@id/Image2"
             android:gravity="left|center_vertical"
             android:paddingBottom="3dp"
             android:text="Kobe"
@@ -65,12 +65,12 @@
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/gender"
+            android:id="@+id/gender2"
             android:layout_width="17dp"
             android:layout_height="17dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="5dp"
-            android:layout_toRightOf="@id/Title"
+            android:layout_toRightOf="@id/Title2"
             android:background="@drawable/boy"
             android:gravity="center_vertical"
             android:padding="5dp"
@@ -79,12 +79,12 @@
 
             />
         <TextView
-            android:id="@+id/Description"
+            android:id="@+id/Description2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/Title"
+            android:layout_below="@id/Title2"
             android:layout_marginLeft="15dp"
-            android:layout_toRightOf="@id/Image"
+            android:layout_toRightOf="@id/Image2"
             android:gravity="left|center_vertical"
             android:paddingBottom="5dp"
             android:text="Shiba Inu"
@@ -92,25 +92,25 @@
             android:textSize="17dp" />
 
         <TextView
-            android:id="@+id/Age"
+            android:id="@+id/Age2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/Title"
+            android:layout_below="@id/Title2"
             android:gravity="left|center_vertical"
-            android:layout_alignTop="@id/Description"
-            android:layout_alignBottom="@id/Description"
+            android:layout_alignTop="@id/Description2"
+            android:layout_alignBottom="@id/Description2"
             android:layout_marginLeft="10dp"
-            android:layout_toRightOf="@id/Description"
+            android:layout_toRightOf="@id/Description2"
 
             android:text="1 years old"
             android:textColor="#808080"
             android:textSize="13dp" />
 
         <TextView
-            android:id="@+id/Distance"
+            android:id="@+id/Distance2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignBottom="@id/Description"
+            android:layout_alignBottom="@id/Description2"
             android:layout_alignParentRight="true"
             android:layout_marginRight="30dp"
             android:gravity="left|center_vertical"
@@ -124,7 +124,7 @@
 
 
         <TextView
-            android:id="@+id/price"
+            android:id="@+id/price2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
@@ -140,7 +140,7 @@
     </RelativeLayout>
 
     <RelativeLayout
-        android:id="@+id/pet_add_detail1"
+        android:id="@+id/pet_add_detail12"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
@@ -148,7 +148,7 @@
         android:clickable="true">
 
         <Button
-            android:id="@+id/Image1"
+            android:id="@+id/Image12"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:background="@drawable/dog_pic3"
@@ -156,12 +156,12 @@
             android:layout_alignParentTop="true" />
 
         <TextView
-            android:id="@+id/Title1"
+            android:id="@+id/Title12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignTop="@id/Image1"
+            android:layout_alignTop="@id/Image12"
             android:layout_marginLeft="15dp"
-            android:layout_toRightOf="@id/Image1"
+            android:layout_toRightOf="@id/Image12"
             android:gravity="left|center_vertical"
             android:paddingBottom="3dp"
             android:text="Lucky"
@@ -170,12 +170,12 @@
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/endorsed1"
+            android:id="@+id/endorsed12"
             android:layout_width="20dp"
             android:layout_height="20dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="5dp"
-            android:layout_toRightOf="@id/Title1"
+            android:layout_toRightOf="@id/Title12"
             android:background="@drawable/girl"
             android:gravity="center_vertical"
             android:padding="5dp"
@@ -184,12 +184,12 @@
 
             />
         <TextView
-            android:id="@+id/Description1"
+            android:id="@+id/Description12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/Title1"
+            android:layout_below="@id/Title12"
             android:layout_marginLeft="15dp"
-            android:layout_toRightOf="@id/Image1"
+            android:layout_toRightOf="@id/Image12"
             android:gravity="left|center_vertical"
             android:paddingBottom="5dp"
             android:text="Golden Retriever"
@@ -197,25 +197,25 @@
             android:textSize="17dp" />
 
         <TextView
-            android:id="@+id/Age1"
+            android:id="@+id/Age12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/Title1"
+            android:layout_below="@id/Title12"
             android:gravity="left|center_vertical"
-            android:layout_alignTop="@id/Description1"
-            android:layout_alignBottom="@id/Description1"
+            android:layout_alignTop="@id/Description12"
+            android:layout_alignBottom="@id/Description12"
             android:layout_marginLeft="10dp"
-            android:layout_toRightOf="@id/Description1"
+            android:layout_toRightOf="@id/Description12"
 
             android:text="1 years old"
             android:textColor="#808080"
             android:textSize="13dp" />
 
         <TextView
-            android:id="@+id/Distance1"
+            android:id="@+id/Distance12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignBottom="@id/Description1"
+            android:layout_alignBottom="@id/Description12"
             android:layout_alignParentRight="true"
             android:layout_marginRight="30dp"
             android:gravity="left|center_vertical"
@@ -229,7 +229,7 @@
 
 
         <TextView
-            android:id="@+id/price1"
+            android:id="@+id/price1_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"

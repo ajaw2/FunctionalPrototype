@@ -60,7 +60,7 @@ public class Filter extends AppCompatActivity{
         applyButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Filter.this, Sitters_near_me.class);
+                Intent intent = new Intent(Filter.this, SittersNearMe2.class);
                 startActivity(intent);
             }
         });

@@ -13,14 +13,14 @@
         android:layout_height="wrap_content"
         >
         <SearchView
-            android:id="@+id/search"
+            android:id="@+id/search2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:labelFor="@string/search" />
 
         <ImageButton
-            android:id="@+id/sitter_filter"
+            android:id="@+id/sitter_filter2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/ic_filter"
@@ -37,7 +37,7 @@
         android:layout_marginTop="15dp">
 
         <Button
-            android:id="@+id/Image_imp"
+            android:id="@+id/Image_imp2"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:background="@drawable/bob"
@@ -45,12 +45,12 @@
             android:layout_alignParentTop="true" />
 
         <TextView
-            android:id="@+id/Title"
+            android:id="@+id/Title2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignTop="@id/Image_imp"
+            android:layout_alignTop="@id/Image_imp2"
             android:layout_marginLeft="15dp"
-            android:layout_toRightOf="@id/Image_imp"
+            android:layout_toRightOf="@id/Image_imp2"
             android:gravity="left|center_vertical"
             android:paddingBottom="3dp"
             android:text="Bob"
@@ -59,25 +59,25 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/Description"
+            android:id="@+id/Description2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/Title"
+            android:layout_below="@id/Title2"
             android:layout_marginLeft="15dp"
-            android:layout_toRightOf="@id/Image_imp"
+            android:layout_toRightOf="@id/Image_imp2"
             android:gravity="left|center_vertical"
             android:paddingBottom="5dp"
             android:text="Animal Lover"
             android:textColor="#000000"
             android:textSize="17dp"
-            android:layout_toEndOf="@id/Image_imp"
+            android:layout_toEndOf="@id/Image_imp2"
             tools:ignore="NotSibling" />
 
         <TextView
-            android:id="@+id/Distance"
+            android:id="@+id/Distance2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/price"
+            android:layout_below="@id/price2"
             android:layout_alignParentRight="true"
             android:gravity="left|center_vertical"
             android:paddingBottom="5dp"
@@ -85,17 +85,17 @@
             android:textColor="#000000"
             android:textSize="12dp"
             android:layout_marginRight="30dp"
-            android:layout_alignTop="@+id/simpleRatingBar"
-            android:layout_alignBottom="@id/simpleRatingBar"
+            android:layout_alignTop="@+id/simpleRatingBar2"
+            android:layout_alignBottom="@id/simpleRatingBar2"
 
 
             />
 
         <RatingBar
-            android:id="@+id/simpleRatingBar"
+            android:id="@+id/simpleRatingBar2"
             android:layout_width="wrap_content"
             android:layout_height="50dp"
-            android:layout_below="@id/Description"
+            android:layout_below="@id/Description2"
             android:rating="4"
             android:scaleX="0.5"
             android:scaleY="0.5"
@@ -103,7 +103,7 @@
             android:layout_marginBottom="-10dp"/>
 
         <Button
-            android:id="@+id/endorsed"
+            android:id="@+id/endorsed2"
             android:layout_width="wrap_content"
             android:layout_height="20dp"
             android:background="@drawable/endorsed_tag"
@@ -112,7 +112,7 @@
             android:textColor="#ffffff"
             android:text="friend endorsed"
             android:gravity="center_vertical"
-            android:layout_toRightOf="@id/Title"
+            android:layout_toRightOf="@id/Title2"
             android:textSize="10dp"
             android:padding="5dp"
             android:layout_marginTop="5dp"
@@ -120,7 +120,7 @@
             />
 
         <TextView
-            android:id="@+id/price"
+            android:id="@+id/price2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
@@ -141,7 +141,7 @@
         android:layout_marginTop="15dp">
 
         <Button
-            android:id="@+id/Image1"
+            android:id="@+id/Image12"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:background="@drawable/ann"
@@ -149,12 +149,12 @@
             android:layout_alignParentTop="true" />
 
         <TextView
-            android:id="@+id/Title1"
+            android:id="@+id/Title12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignTop="@id/Image1"
+            android:layout_alignTop="@id/Image12"
             android:layout_marginLeft="15dp"
-            android:layout_toRightOf="@id/Image1"
+            android:layout_toRightOf="@id/Image12"
             android:gravity="left|center_vertical"
             android:paddingBottom="3dp"
             android:text="Ann"
@@ -163,12 +163,12 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/Description1"
+            android:id="@+id/Description12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/Title1"
+            android:layout_below="@id/Title12"
             android:layout_marginLeft="15dp"
-            android:layout_toRightOf="@id/Image1"
+            android:layout_toRightOf="@id/Image12"
             android:gravity="left|center_vertical"
             android:paddingBottom="5dp"
             android:text="Cat Lover"
@@ -176,10 +176,10 @@
             android:textSize="17dp" />
 
         <TextView
-            android:id="@+id/Distance1"
+            android:id="@+id/Distance12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/price1"
+            android:layout_below="@id/price12"
             android:layout_alignParentRight="true"
             android:gravity="left|center_vertical"
             android:paddingBottom="5dp"
@@ -187,17 +187,17 @@
             android:textColor="#000000"
             android:textSize="12dp"
             android:layout_marginRight="30dp"
-            android:layout_alignTop="@+id/simpleRatingBar1"
-            android:layout_alignBottom="@id/simpleRatingBar1"
+            android:layout_alignTop="@+id/simpleRatingBar12"
+            android:layout_alignBottom="@id/simpleRatingBar12"
 
 
             />
 
         <RatingBar
-            android:id="@+id/simpleRatingBar1"
+            android:id="@+id/simpleRatingBar12"
             android:layout_width="wrap_content"
             android:layout_height="50dp"
-            android:layout_below="@id/Description1"
+            android:layout_below="@id/Description12"
             android:rating="3.5"
             android:scaleX="0.5"
             android:scaleY="0.5"
@@ -207,7 +207,7 @@
 
 
         <TextView
-            android:id="@+id/price1"
+            android:id="@+id/price12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
@@ -221,93 +221,4 @@
             />
 
     </RelativeLayout>
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="15dp">
-
-        <Button
-            android:id="@+id/Image2"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:background="@drawable/jenny"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true" />
-
-        <TextView
-            android:id="@+id/Title2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignTop="@id/Image2"
-            android:layout_marginLeft="15dp"
-            android:layout_toRightOf="@id/Image2"
-            android:gravity="left|center_vertical"
-            android:paddingBottom="3dp"
-            android:text="Jenny"
-            android:textColor="#000000"
-            android:textSize="20dp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/Description2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/Title2"
-            android:layout_marginLeft="15dp"
-            android:layout_toRightOf="@id/Image2"
-            android:gravity="left|center_vertical"
-            android:paddingBottom="5dp"
-            android:text="Dog Lover"
-            android:textColor="#000000"
-            android:textSize="17dp" />
-
-
-        <TextView
-            android:id="@+id/Distance2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/price2"
-            android:layout_alignParentRight="true"
-            android:gravity="left|center_vertical"
-            android:paddingBottom="5dp"
-            android:text="1.9 mi"
-            android:textColor="#000000"
-            android:textSize="12dp"
-            android:layout_marginRight="30dp"
-            android:layout_alignTop="@+id/simpleRatingBar2"
-            android:layout_alignBottom="@id/simpleRatingBar2"
-
-
-            />
-
-        <RatingBar
-            android:id="@+id/simpleRatingBar2"
-            android:layout_width="wrap_content"
-            android:layout_height="50dp"
-            android:layout_below="@id/Description2"
-            android:rating="4.5"
-            android:scaleX="0.5"
-            android:scaleY="0.5"
-            android:layout_marginTop="-10dp"
-            android:layout_marginBottom="-10dp"/>
-
-
-
-        <TextView
-            android:id="@+id/price2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentRight="true"
-            android:layout_marginRight="20dp"
-            android:text="$15"
-            android:textColor="#EA6E2E"
-            android:textSize="25dp"
-            android:textStyle="bold"
-
-            />
-
-    </RelativeLayout>
-
 </LinearLayout>
