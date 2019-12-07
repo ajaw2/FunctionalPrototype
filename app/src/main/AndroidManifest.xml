@@ -22,7 +22,7 @@
         <activity android:name=".pet_info" />
         <activity android:name=".sitter_details" />
         <activity android:name=".Sitters_near_me"
-            android:label="Sitters List"/>
+            android:label="Sitters Near Me"/>
         <activity android:name=".Become_sitter" />
         <activity android:name=".AccountPage" />
         <activity android:name=".MainActivity">
