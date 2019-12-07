@@ -28,7 +28,7 @@
         <activity android:name=".sitter_details" />
         <activity android:name=".Sitters_near_me"
             android:label="Sitters Near Me"/>
-        <activity android:name=".Become_sitter" />
+        <activity android:name=".Become_sitter" android:theme="@style/BecomeSitterTheme" />
         <activity android:name=".AccountPage" />
         <activity android:name=".MainActivity">
             <intent-filter>
