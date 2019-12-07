@@ -305,6 +305,7 @@
             android:textColor="#EA6E2E"
             android:textSize="25dp"
             android:textStyle="bold"
+
             />
 
     </RelativeLayout>
