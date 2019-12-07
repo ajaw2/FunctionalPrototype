@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
@@ -39,6 +41,8 @@ public class filter2 extends AppCompatActivity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_filter2);
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         ageButton1= (Button) findViewById(R.id.pet_age1);
         ageButton2=(Button) findViewById(R.id.pet_age2);
@@ -203,5 +207,24 @@ public class filter2 extends AppCompatActivity{
             }
         });
 
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+        if (item.getItemId()==R.id.settings_mini){
+            Intent intent = new Intent(this, AccountPage.class);
+            startActivity(intent);
+        } else {
+            Intent intent = new Intent(getApplicationContext(), PetDetails.class);
+            startActivity(intent);
+        }
+        return true;
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu, menu);
+        return true;
     }
 }
