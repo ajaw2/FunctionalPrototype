@@ -8,9 +8,6 @@
     tools:context=".Login"
     android:background="@drawable/background">
 
-    android:background="@drawable/background"
-    tools:context=".Login">
-
 
     <TextView
         android:layout_width="match_parent"
