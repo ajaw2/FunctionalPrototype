@@ -47,7 +47,7 @@ public class PetDetails extends AppCompatActivity implements View.OnClickListene
             Intent intent = new Intent(this, AccountPage.class);
             startActivity(intent);
         } else {
-            Intent intent = new Intent(getApplicationContext(), pet_selection.class);
+            Intent intent = new Intent(getApplicationContext(), Searching_for.class);
             startActivity(intent);
         }
         return true;
